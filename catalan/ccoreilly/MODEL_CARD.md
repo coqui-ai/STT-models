@@ -18,7 +18,7 @@ Jump to section:
 - Model type: `Speech-to-Text`
 - Model version: `0.14.0`
 - Code: [deepspeech-catala](https://github.com/ccoreilly/deepspeech-catala)
-- Citation details: `@misc{catalan-ccoreilly,author = {O`Reilly,Ciaran},title = {STT Catalan},publisher = {Coqui},journal = {STT-models},howpublished = {\url{https://github.com/coqui-ai/STT-models}}}`
+- Citation details: `@misc{catalan-ccoreilly,author = {O'Reilly,Ciaran},title = {STT Catalan},publisher = {Coqui},journal = {STT-models},howpublished = {\url{https://github.com/coqui-ai/STT-models}}}`
 - License: MIT
 - Where to send questions or comments about the model: You can leave an issue on [`STT-model` issues](https://github.com/coqui-ai/STT-models/issues), open a new discussion on [`STT-model` discussions](https://github.com/coqui-ai/STT-models/discussions), or chat with us on [Gitter](https://gitter.im/coqui-ai/).
 
