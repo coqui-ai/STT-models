@@ -1,4 +1,4 @@
-# Model card for Catalan STT
+# Model card for Welsh STT
 
 Jump to section:
 
@@ -13,18 +13,18 @@ Jump to section:
 
 ## Model details
 
-- Person or organization developing model: Originally trained and released by [Ciaran O'Reilly](https://github.com/ccoreilly)
-- Model date: Accessed from [Github](https://github.com/ccoreilly/deepspeech-catala/releases/tag/0.14.0) on March 31, 2021
+- Person or organization developing model: Originally trained by [Dewi Bryn Jones](https://github.com/DewiBrynJones) and released by the [Techiaith Language Technologies Unit](https://github.com/techiaith)
+- Model date: Accessed from [Github](https://github.com/techiaith/docker-deepspeech-cy/releases/tag/21.03) on March 31, 2021
 - Model type: `Speech-to-Text`
-- Model version: `0.14.0`
-- Code: [deepspeech-catala](https://github.com/ccoreilly/deepspeech-catala)
-- Citation details: `@misc{catalan-ccoreilly,author = {O`Reilly,Ciaran},title = {STT Catalan},publisher = {Coqui},journal = {STT-models},howpublished = {\url{https://github.com/coqui-ai/STT-models}}}`
+- Model version: `21.03`
+- Code: [docker-deepspeech-cy](https://github.com/techiaith/docker-deepspeech-cy)
+- Citation details: `@misc{welsh-dewibrynjones,author = {Dewi Bryn Jones},title = {STT Welsh},publisher = {Coqui},journal = {STT-models},howpublished = {\url{https://github.com/coqui-ai/STT-models}}}`
 - License: MIT
 - Where to send questions or comments about the model: You can leave an issue on [`STT-model` issues](https://github.com/coqui-ai/STT-models/issues), open a new discussion on [`STT-model` discussions](https://github.com/coqui-ai/STT-models/discussions), or chat with us on [Gitter](https://gitter.im/coqui-ai/).
 
 ## Intended use
 
-Speech-to-Text for the [Catalan Language](https://en.wikipedia.org/wiki/catalan_language) on 16kHz, mono-channel audio.
+Speech-to-Text for the [Welsh Language](https://en.wikipedia.org/wiki/Welsh_language) on 16kHz, mono-channel audio.
 
 ## Performance Factors
 
@@ -36,26 +36,19 @@ STT models are usually evaluated in terms of their transcription accuracy, deplo
 
 #### Transcription Accuracy
 
-The following Word Error Rates (WER) are reported on [Github](https://github.com/ccoreilly/deepspeech-catala#wer-del-dataset-test-de-cada-model).
-
-|Test Dataset | WER|
-|-------------|----|
-|Common Voice 6.1 + ParlamentParla | 13,29\%|
-|Google Crowdsourced | 9,05\%|
-|Sant Jordi | 18,84\%|
+Word Error Rates and Character Error Rates were not reported for this model
 
 #### Real-Time Factor
 
 Real-Time Factor (RTF) is defined as `proccesing-time / length-of-audio`. The exact real-time factor of an STT model will depend on the hardware setup, so you may experience a different RTF.
 
-Recorded average RTF on laptop CPU: `.71`
+Recorded average RTF on laptop CPU: `.76`
 
 #### Model Size
 
 `model.pb`: 181M
 `model.pbmm`: 181M
 `model.tflite`: 46M
-`kenlm.scorer`: 291M
 
 ### Approaches to uncertainty and variability
 
@@ -63,11 +56,11 @@ Confidence scores and multiple paths from the decoding beam can be used to measu
 
 ## Training data
 
-This model was trained on [Catalan Common Voice 6.1](commonvoice.mozilla.org/datasets) and [ParlamentParla Clean](https://www.openslr.org/59/).
+These models were trained with the Welsh dataset from the [Common Voice Corpus 6.1](https://commonvoice.mozilla.org/datasets) in addition to a small dataset of validated recordings donated by the first users of Bangor University's Language Technology Unit's online automatic transcription website service: [Trawsgrifiwr Ar-lein](https://trawsgrifiwr.techiaith.cymru). [Detailed release notes here](https://github.com/techiaith/docker-deepspeech-cy/releases/tag/21.03).
 
 ## Evaluation data
 
-The model was tested on [Catalan Common Voice 6.1](commonvoice.mozilla.org/datasets), [ParlamentParla Clean](https://www.openslr.org/59/), the [Catalan Google Crowdsourced Corpus](https://www.openslr.org/69/), and a private corpus ([Sant Jordi](https://github.com/ccoreilly/deepspeech-catala#corpus-emprats)).
+With a language model, the Welsh STT model had a Word Error Rate of 11\%. [Detailed release notes here](https://github.com/techiaith/docker-deepspeech-cy/releases/tag/21.03).
 
 ## Ethical considerations
 
