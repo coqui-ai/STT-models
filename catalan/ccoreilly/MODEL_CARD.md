@@ -52,7 +52,7 @@ Recorded average RTF on laptop CPU: `.71`
 
 #### Model Size
 
-`model.pb`: 181M
+181M
 `model.pbmm`: 181M
 `model.tflite`: 46M
 `kenlm.scorer`: 291M

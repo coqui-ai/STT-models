@@ -1,4 +1,4 @@
-# Model card for Welsh STT
+# Model card for German STT
 
 Jump to section:
 
@@ -13,18 +13,18 @@ Jump to section:
 
 ## Model details
 
-- Person or organization developing model: Originally trained by [Dewi Bryn Jones](https://github.com/DewiBrynJones) and released by the [Techiaith Language Technologies Unit](https://github.com/techiaith)
-- Model date: Accessed from [Github](https://github.com/techiaith/docker-deepspeech-cy/releases/tag/21.03) on March 31, 2021
+- Person or organization developing model: Originally trained by [DANBER](https://gitlab.com/DANBER)and released under the [Jaco-Assistant](https://gitlab.com/Jaco-Assistant/Scribosermo) project.
+- Model date: Accessed from [Gitlab](https://gitlab.com/Jaco-Assistant/Scribosermo) on March 31, 2021
 - Model type: `Speech-to-Text`
-- Model version: `21.03`
-- Code: [docker-deepspeech-cy](https://github.com/techiaith/docker-deepspeech-cy)
-- Citation details: `@misc{welsh-dewibrynjones,author = {Dewi Bryn Jones},title = {STT Welsh},publisher = {Coqui},journal = {STT-models},howpublished = {\url{https://github.com/coqui-ai/STT-models}}}`
-- License: MIT
+- Model version: `0.0.1`
+- Code: [scribosermo](https://gitlab.com/Jaco-Assistant/Scribosermo/-/tree/master/#old-experiments)
+- Citation details: `@misc{german-jaco,author = {DANBER},title = {German STT},publisher = {Jaco-Assistant},journal = {Gitlab},howpublished = {\url{https://gitlab.com/Jaco-Assistant/Scribosermo}},commit = {dfc541d2}}`
+- License: GNU Lesser General Public License
 - Where to send questions or comments about the model: You can leave an issue on [`STT-model` issues](https://github.com/coqui-ai/STT-models/issues), open a new discussion on [`STT-model` discussions](https://github.com/coqui-ai/STT-models/discussions), or chat with us on [Gitter](https://gitter.im/coqui-ai/).
 
 ## Intended use
 
-Speech-to-Text for the [Welsh Language](https://en.wikipedia.org/wiki/Welsh_language) on 16kHz, mono-channel audio.
+Speech-to-Text for the [German Language](https://en.wikipedia.org/wiki/German_language) on 16kHz, mono-channel audio.
 
 ## Performance Factors
 
@@ -36,16 +36,21 @@ STT models are usually evaluated in terms of their transcription accuracy, deplo
 
 #### Transcription Accuracy
 
-Word Error Rates and Character Error Rates were not reported for this model
+The following Word Error Rates and Character Error Rates are reported on [Jaco-Assistant](https://gitlab.com/Jaco-Assistant/Scribosermo/-/tree/master#old-experiments).
+
+|Test Corpus|WER|CER|
+|-----------|---|---|
+|Common Voice|12.8\%|5.6\%|
+|Tuda | 24.6\%| 10.1\%|
+|CommonVoice + Tuda + Voxforge |16.2\%|6.9\%|
 
 #### Real-Time Factor
 
 Real-Time Factor (RTF) is defined as `proccesing-time / length-of-audio`. The exact real-time factor of an STT model will depend on the hardware setup, so you may experience a different RTF.
 
-Recorded average RTF on laptop CPU: `.76`
+Recorded average RTF on laptop CPU: ``
 
 #### Model Size
-
 
 `model.pbmm`: 181M
 `model.tflite`: 46M
@@ -56,11 +61,11 @@ Confidence scores and multiple paths from the decoding beam can be used to measu
 
 ## Training data
 
-These models were trained with the Welsh dataset from the [Common Voice Corpus 6.1](https://commonvoice.mozilla.org/datasets) in addition to a small dataset of validated recordings donated by the first users of Bangor University's Language Technology Unit's online automatic transcription website service: [Trawsgrifiwr Ar-lein](https://trawsgrifiwr.techiaith.cymru). [Detailed release notes here](https://github.com/techiaith/docker-deepspeech-cy/releases/tag/21.03).
+This model was trained on the following corpora: BasFormtask, BasSprecherinnen, Common Voice, CssTen, Gothic, LinguaLibre, Kurzgesagt, Mailabs, MussteWissen, PulsReportage, SWC, Tatoeba, TerraX, Tuda, Voxforge, YKollektiv, ZamiaSpeech, and Common Voice Single Words. Read more about training [here](https://gitlab.com/Jaco-Assistant/Scribosermo/-/tree/master#old-experiments).
 
 ## Evaluation data
 
-With a language model, the Welsh STT model had a Word Error Rate of 11\%. [Detailed release notes here](https://github.com/techiaith/docker-deepspeech-cy/releases/tag/21.03).
+The Model was evaluated on Tuda and Common Voice. Read more about evaluation [here](https://gitlab.com/Jaco-Assistant/Scribosermo/-/tree/master#old-experiments).
 
 ## Ethical considerations
 
