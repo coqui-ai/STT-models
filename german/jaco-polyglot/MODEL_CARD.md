@@ -18,8 +18,15 @@ Jump to section:
 - Model type: `Speech-to-Text`
 - Model version: `0.0.1`
 - Code: [scribosermo](https://gitlab.com/Jaco-Assistant/Scribosermo/-/tree/master/#old-experiments)
-- Citation details: `@misc{german-jaco,author = {DANBER},title = {German STT},publisher = {Jaco-Assistant},journal = {Gitlab},howpublished = {\url{https://gitlab.com/Jaco-Assistant/Scribosermo}},commit = {dfc541d2}}`
 - License: GNU Lesser General Public License
+- Citation details: `@misc{german-jaco,
+author = {DANBER},
+title = {German Jaco-Assistant},
+publisher = {Jaco-Assistant},
+journal = {Gitlab},
+howpublished = {\url{https://gitlab.com/Jaco-Assistant/Scribosermo}},
+commit = {dfc541d2}
+}`
 - Where to send questions or comments about the model: You can leave an issue on [`STT-model` issues](https://github.com/coqui-ai/STT-models/issues), open a new discussion on [`STT-model` discussions](https://github.com/coqui-ai/STT-models/discussions), or chat with us on [Gitter](https://gitter.im/coqui-ai/).
 
 ## Intended use

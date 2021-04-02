@@ -1,4 +1,4 @@
-# Model card for Catalan STT
+# Model card for French STT
 
 Jump to section:
 
@@ -13,18 +13,25 @@ Jump to section:
 
 ## Model details
 
-- Person or organization developing model: Originally trained and released by []()
-- Model date: Accessed from [Github]() on March 31, 2021
+- Person or organization developing model: Originally trained and released by [Alexandre Lissy](https://github.com/lissyx) under the [commonvoice-fr](https://github.com/common-voice/commonvoice-fr) project
+- Model date: Accessed from [Github](https://github.com/common-voice/commonvoice-fr/releases/tag/fr-v0.6) on March 31, 2021
 - Model type: `Speech-to-Text`
-- Model version: `0.0.1`
-- Code: []()
-- Citation details: `@misc{model-name,author = {},title = {},publisher = {Github},journal = {GitHub repository},howpublished = {\url{}},commit = {}}`
-- License: 
+- Model version: `0.6`
+- Code: [commonvoice-fr](https://github.com/common-voice/commonvoice-fr)
+- License: MPL 2.0
+- Citation details: `@misc{commonvoice-fr,
+author = {Lissy, Alexandre},
+title = {Common Voice FR},
+publisher = {Github},
+journal = {GitHub repository},
+howpublished = {\url{https://github.com/common-voice/commonvoice-fr/releases/tag/fr-v0.6}},
+commit = {5a0f61baf112620286b30319eb7000c57d8a20d0}
+}`
 - Where to send questions or comments about the model: You can leave an issue on [`STT-model` issues](https://github.com/coqui-ai/STT-models/issues), open a new discussion on [`STT-model` discussions](https://github.com/coqui-ai/STT-models/discussions), or chat with us on [Gitter](https://gitter.im/coqui-ai/).
 
 ## Intended use
 
-Speech-to-Text for the [ Language](https://en.wikipedia.org/wiki/_language) on 16kHz, mono-channel audio.
+Speech-to-Text for the [French Language](https://en.wikipedia.org/wiki/French_language) on 16kHz, mono-channel audio.
 
 ## Performance Factors
 
@@ -36,8 +43,16 @@ STT models are usually evaluated in terms of their transcription accuracy, deplo
 
 #### Transcription Accuracy
 
-The following Word Error Rates (WER) are reported on []().
+The following Word Error Rates (WER) are reported on [Github](https://github.com/common-voice/commonvoice-fr/releases/tag/fr-v0.6).
 
+|Test Corpus|WER|CER|
+|-----------|---|---|
+|African_Accented_French_test.csv|44.9\%|24.2\%|
+|M-AILABS|9.7\%|2.7\%|
+|trainingspeech|20.0\%|6.0\%|
+|Common Voice|30.1\%|14.3\%|
+|LinguaLibre|5.9\%|1.8\%|
+|CCPMF|48.7\%|30.4\%|
 
 #### Real-Time Factor
 
@@ -47,9 +62,8 @@ Recorded average RTF on laptop CPU: ``
 
 #### Model Size
 
-
-`model.pbmm`: 
-`model.tflite`: 
+`model.pbmm`: 181M
+`model.tflite`: 46M
 
 ### Approaches to uncertainty and variability
 
@@ -57,11 +71,27 @@ Confidence scores and multiple paths from the decoding beam can be used to measu
 
 ## Training data
 
-This model was trained on []().
+This French STT model was trained on the following corpora:
+
+1. Lingua Libre (~40h)
+2. Common Voice FR (v2) (~490h, en autorisant jusqu'à 32 duplicatas)
+3. Training Speech (~180h)
+4. African Accented French (~15h)
+5. M-AILABS French (~315h)
+6. Centre de Conférence Pierre Mendès France (~300h)
+
+Total : ~1340h
 
 ## Evaluation data
 
-The model was tested on []().
+The model was tested on the following corpora.
+
+1. Lingua Libre
+2. Common Voice FR (v2)
+3. Training Speech
+4. African Accented French
+5. M-AILABS French
+6. Centre de Conférence Pierre Mendès France
 
 ## Ethical considerations
 

@@ -17,8 +17,18 @@ Jump to section:
 - Model date: March 31, 2021
 - Model type: `Speech-to-Text`
 - Model version: `0.0.1`
-- Citation details: `@inproceedings{hjortnaes-etal-2020-towards, title = "Towards a Speech Recognizer for {K}omi, an Endangered and Low-Resource Uralic Language", author = "Hjortnaes, Nils and Partanen, Niko and Rie{\ss}ler, Michael and M. Tyers, Francis",booktitle = "Proceedings of the Sixth International Workshop on Computational Linguistics of Uralic Languages",month = "1",year = "2020",address = "Wien, Austria",publisher = "Association for Computational Linguistics",url = "https://www.aclweb.org/anthology/2020.iwclul-1.5",pages = "31--37"}`
 - License: AGPL
+- Citation details: `@inproceedings{hjortnaes-etal-2020-towards,
+title = "Towards a Speech Recognizer for {K}omi, an Endangered and Low-Resource Uralic Language",
+author = "Hjortnaes, Nils and Partanen, Niko and Rie{\ss}ler, Michael and M. Tyers, Francis",
+booktitle = "Proceedings of the Sixth International Workshop on Computational Linguistics of Uralic Languages",
+month = "1",
+year = "2020",
+address = "Wien, Austria",
+publisher = "Association for Computational Linguistics",
+url = "https://www.aclweb.org/anthology/2020.iwclul-1.5",
+pages = "31--37"
+}`
 - Where to send questions or comments about the model: You can leave an issue on [`STT-model` issues](https://github.com/coqui-ai/STT-models/issues), open a new discussion on [`STT-model` discussions](https://github.com/coqui-ai/STT-models/discussions), or chat with us on [Gitter](https://gitter.im/coqui-ai/).
 
 ## Intended use
@@ -45,7 +55,7 @@ The following Word Error Rates and Character Error Rates are reported in the [pa
 
 Real-Time Factor (RTF) is defined as `proccesing-time / length-of-audio`. The exact real-time factor of an STT model will depend on the hardware setup, so you may experience a different RTF.
 
-Recorded average RTF on laptop CPU: ``
+Recorded average RTF on laptop CPU: `.95`
 
 #### Model Size
 

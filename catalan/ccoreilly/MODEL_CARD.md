@@ -18,8 +18,15 @@ Jump to section:
 - Model type: `Speech-to-Text`
 - Model version: `0.14.0`
 - Code: [deepspeech-catala](https://github.com/ccoreilly/deepspeech-catala)
-- Citation details: `@misc{catalan-ccoreilly,author = {O'Reilly,Ciaran},title = {STT Catalan},publisher = {Coqui},journal = {STT-models},howpublished = {\url{https://github.com/coqui-ai/STT-models}}}`
 - License: MIT
+- Citation details: `@misc{catalan-ccoreilly,
+author = {O'Reilly,Ciaran},
+title = {Deepspeech Català},
+publisher = {Github},
+journal = {deepspeech-catala},
+howpublished = {\url{https://github.com/ccoreilly/deepspeech-catala}}
+commit = {21da2be7cace9f87ac2445e51b82703d1fee0849}
+}`
 - Where to send questions or comments about the model: You can leave an issue on [`STT-model` issues](https://github.com/coqui-ai/STT-models/issues), open a new discussion on [`STT-model` discussions](https://github.com/coqui-ai/STT-models/discussions), or chat with us on [Gitter](https://gitter.im/coqui-ai/).
 
 ## Intended use
@@ -52,10 +59,8 @@ Recorded average RTF on laptop CPU: `.71`
 
 #### Model Size
 
-181M
 `model.pbmm`: 181M
 `model.tflite`: 46M
-`kenlm.scorer`: 291M
 
 ### Approaches to uncertainty and variability
 

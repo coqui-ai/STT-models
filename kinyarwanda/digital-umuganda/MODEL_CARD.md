@@ -18,8 +18,15 @@ Jump to section:
 - Model type: `Speech-to-Text`
 - Model version: `0.0.1`
 - Code: [deepspeech-kinyarwanda](https://github.com/Digital-Umuganda/Deepspeech-Kinyarwanda)
-- Citation details: `@misc{german-jaco,author = {Digital Umuganda},title = {Kinyarwanda STT},publisher = {Digital Umuganda},journal = {Github},howpublished = {\url{https://github.com/Digital-Umuganda/Deepspeech-Kinyarwanda}},commit = {7dbf6705ee38d87138f3558a21f045c40b93f083}}`
 - License: MPL 2.0
+- Citation details: `@misc{deepspeech-kinyarwanda,
+author = {Digital Umuganda},
+title = {Kinyarwanda STT},
+publisher = {Digital Umuganda},
+journal = {Github},
+howpublished = {\url{https://github.com/Digital-Umuganda/Deepspeech-Kinyarwanda}},
+commit = {7dbf6705ee38d87138f3558a21f045c40b93f083}
+}`
 - Where to send questions or comments about the model: You can leave an issue on [`STT-model` issues](https://github.com/coqui-ai/STT-models/issues), open a new discussion on [`STT-model` discussions](https://github.com/coqui-ai/STT-models/discussions), or chat with us on [Gitter](https://gitter.im/coqui-ai/).
 
 ## Intended use
@@ -44,7 +51,7 @@ STT models are usually evaluated in terms of their transcription accuracy, deplo
 
 Real-Time Factor (RTF) is defined as `proccesing-time / length-of-audio`. The exact real-time factor of an STT model will depend on the hardware setup, so you may experience a different RTF.
 
-Recorded average RTF on laptop CPU: ``
+Recorded average RTF on laptop CPU: `.69`
 
 #### Model Size
 

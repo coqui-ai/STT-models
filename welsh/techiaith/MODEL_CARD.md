@@ -18,8 +18,14 @@ Jump to section:
 - Model type: `Speech-to-Text`
 - Model version: `21.03`
 - Code: [docker-deepspeech-cy](https://github.com/techiaith/docker-deepspeech-cy)
-- Citation details: `@misc{welsh-dewibrynjones,author = {Dewi Bryn Jones},title = {STT Welsh},publisher = {Coqui},journal = {STT-models},howpublished = {\url{https://github.com/coqui-ai/STT-models}}}`
 - License: MIT
+- Citation details: `@misc{welsh-stt-dewibrynjones,
+author = {Dewi Bryn Jones},
+title = {Docker DeepSpeech Cymraeg},
+publisher = {Techiaith},
+journal = {docker-deepspeech-cy},
+howpublished = {\url{https://github.com/techiaith/docker-deepspeech-cy/releases/tag/21.03}}
+}`
 - Where to send questions or comments about the model: You can leave an issue on [`STT-model` issues](https://github.com/coqui-ai/STT-models/issues), open a new discussion on [`STT-model` discussions](https://github.com/coqui-ai/STT-models/discussions), or chat with us on [Gitter](https://gitter.im/coqui-ai/).
 
 ## Intended use
@@ -45,7 +51,6 @@ Real-Time Factor (RTF) is defined as `proccesing-time / length-of-audio`. The ex
 Recorded average RTF on laptop CPU: `.76`
 
 #### Model Size
-
 
 `model.pbmm`: 181M
 `model.tflite`: 46M

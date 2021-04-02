@@ -18,8 +18,15 @@ Jump to section:
 - Model type: `Speech-to-Text`
 - Model version: `0.4`
 - Code: [voice-recognition-ua](https://github.com/robinhad/voice-recognition-ua)
-- Citation details: `@misc{french-jaco,author = {Paniv,Yurii},title = {Ukrainian STT},publisher = {voice-recognition-ua},journal = {Github},howpublished = {\url{https://github.com/robinhad/voice-recognition-ua/releases/tag/v0.4}},commit={1252a9e9337ceeff52fe9772dc8802f4337ccff3}}`
-- License: MIT
+- License: CC BY-NC 4.0
+- Citation details: `@misc{ukrainian-stt-paniv,
+author = {Paniv,Yurii},
+title = {Ukrainian STT},
+publisher = {voice-recognition-ua},
+journal = {Github},
+howpublished = {\url{https://github.com/robinhad/voice-recognition-ua/releases/tag/v0.4}},
+commit={1252a9e9337ceeff52fe9772dc8802f4337ccff3}
+}`
 - Where to send questions or comments about the model: You can leave an issue on [`STT-model` issues](https://github.com/coqui-ai/STT-models/issues), open a new discussion on [`STT-model` discussions](https://github.com/coqui-ai/STT-models/discussions), or chat with us on [Gitter](https://gitter.im/coqui-ai/).
 
 ## Intended use
@@ -46,7 +53,7 @@ The following Word Error Rates (WER) are reported on [Github](https://github.com
 
 Real-Time Factor (RTF) is defined as `proccesing-time / length-of-audio`. The exact real-time factor of an STT model will depend on the hardware setup, so you may experience a different RTF.
 
-Recorded average RTF on laptop CPU: ``
+Recorded average RTF on laptop CPU: `.76`
 
 #### Model Size
 

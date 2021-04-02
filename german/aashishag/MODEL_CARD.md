@@ -19,7 +19,6 @@ Jump to section:
 - Model version: `0.9.0`
 - Code: [deepspeech-german](https://github.com/AASHISHAG/deepspeech-german)
 - License: Apache 2.0
-- Where to send questions or comments about the model: You can leave an issue on [`STT-model` issues](https://github.com/coqui-ai/STT-models/issues), open a new discussion on [`STT-model` discussions](https://github.com/coqui-ai/STT-models/discussions), or chat with us on [Gitter](https://gitter.im/coqui-ai/).
 - Citation details: `@inproceedings{agarwal-zesch-2019-german,
     author = "Aashish Agarwal and Torsten Zesch",
     title = "German End-to-end Speech Recognition based on DeepSpeech",
@@ -29,6 +28,7 @@ Jump to section:
     publisher = "German Society for Computational Linguistics \& Language Technology",
     pages = "111--119"
 }`
+- Where to send questions or comments about the model: You can leave an issue on [`STT-model` issues](https://github.com/coqui-ai/STT-models/issues), open a new discussion on [`STT-model` discussions](https://github.com/coqui-ai/STT-models/discussions), or chat with us on [Gitter](https://gitter.im/coqui-ai/).
 
 ## Intended use
 
@@ -50,7 +50,7 @@ No available accuracy benchmarks.
 
 Real-Time Factor (RTF) is defined as `proccesing-time / length-of-audio`. The exact real-time factor of an STT model will depend on the hardware setup, so you may experience a different RTF.
 
-Recorded average RTF on laptop CPU: ``
+Recorded average RTF on laptop CPU: `.69`
 
 #### Model Size
 
