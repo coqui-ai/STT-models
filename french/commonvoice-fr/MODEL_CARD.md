@@ -17,6 +17,7 @@ Jump to section:
 - Model date: Accessed from [Github](https://github.com/common-voice/commonvoice-fr/releases/tag/fr-v0.6) on March 31, 2021
 - Model type: `Speech-to-Text`
 - Model version: `v0.6`
+- Compatible with 🐸 STT version: `v0.9.3`
 - Code: [commonvoice-fr](https://github.com/common-voice/commonvoice-fr)
 - License: MPL 2.0
 - Citation details: `@misc{commonvoice-fr,
@@ -101,7 +102,7 @@ Deploying a Speech-to-Text model into any production setting has ethical implica
 
 You should assume every machine learning model has demographic bias unless proven otherwise. For STT models, it is often the case that transcription accuracy is better for men than it is for women. If you are using this model in production, you should acknowledge this as a potential issue.
 
-### Surveillence
+### Surveillance
 
 Speech-to-Text may be mis-used to invade the privacy of others by recording and mining information from private conversations. This kind of individual privacy is protected by law in may countries. You should not assume consent to record and analyze private speech.
 

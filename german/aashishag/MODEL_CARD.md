@@ -17,16 +17,17 @@ Jump to section:
 - Model date: Accessed from [deepspeech-german](https://github.com/AASHISHAG/deepspeech-german) on March 31, 2021
 - Model type: `Speech-to-Text`
 - Model version: `v0.9.0`
+- Compatible with 🐸 STT version: `v0.9.3`
 - Code: [deepspeech-german](https://github.com/AASHISHAG/deepspeech-german)
 - License: Apache 2.0
 - Citation details: `@inproceedings{agarwal-zesch-2019-german,
-    author = "Aashish Agarwal and Torsten Zesch",
-    title = "German End-to-end Speech Recognition based on DeepSpeech",
-    booktitle = "Preliminary proceedings of the 15th Conference on Natural Language Processing (KONVENS 2019): Long Papers",
-    year = "2019",
-    address = "Erlangen, Germany",
-    publisher = "German Society for Computational Linguistics \& Language Technology",
-    pages = "111--119"
+author = "Aashish Agarwal and Torsten Zesch",
+title = "German End-to-end Speech Recognition based on DeepSpeech",
+booktitle = "Preliminary proceedings of the 15th Conference on Natural Language Processing (KONVENS 2019): Long Papers",
+year = "2019",
+address = "Erlangen, Germany",
+publisher = "German Society for Computational Linguistics \& Language Technology",
+pages = "111--119"
 }`
 - Where to send questions or comments about the model: You can leave an issue on [`STT-model` issues](https://github.com/coqui-ai/STT-models/issues), open a new discussion on [`STT-model` discussions](https://github.com/coqui-ai/STT-models/discussions), or chat with us on [Gitter](https://gitter.im/coqui-ai/).
 
@@ -77,7 +78,7 @@ Deploying a Speech-to-Text model into any production setting has ethical implica
 
 You should assume every machine learning model has demographic bias unless proven otherwise. For STT models, it is often the case that transcription accuracy is better for men than it is for women. If you are using this model in production, you should acknowledge this as a potential issue.
 
-### Surveillence
+### Surveillance
 
 Speech-to-Text may be mis-used to invade the privacy of others by recording and mining information from private conversations. This kind of individual privacy is protected by law in may countries. You should not assume consent to record and analyze private speech.
 
