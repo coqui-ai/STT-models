@@ -14,3 +14,4 @@ This repository tracks releases of open models for 🐸STT.
 | [French](https://en.wikipedia.org/wiki/French_language) | [commonvoice-fr](https://github.com/common-voice/commonvoice-fr) | [`v0.6`](https://github.com/coqui-ai/STT-models/releases/tag/french/commonvoice-fr/v0.6) |
 | [French](https://en.wikipedia.org/wiki/French_language) | [Jaco-Assistant](https://gitlab.com/Jaco-Assistant) | [`v0.0.1`](https://github.com/coqui-ai/STT-models/releases/tag/french/jaco-assistant/v0.0.1) |
 | [Italian](https://en.wikipedia.org/wiki/Italian_language) | [Jaco-Assistant](https://gitlab.com/Jaco-Assistant) | [`v0.0.1`](https://github.com/coqui-ai/STT-models/releases/tag/italian/jaco-assistant/v0.0.1) |
+| [Polish](https://en.wikipedia.org/wiki/Polish_language) | [Jaco-Assistant](https://gitlab.com/Jaco-Assistant) | [`v0.0.1`](https://github.com/coqui-ai/STT-models/releases/tag/polish/jaco-assistant/v0.0.1) |
