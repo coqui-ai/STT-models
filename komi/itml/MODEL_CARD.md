@@ -1,4 +1,4 @@
-# Model card for Komi STT
+# Model card for Komi-Zyrian STT
 
 Jump to section:
 
@@ -13,7 +13,7 @@ Jump to section:
 
 ## Model details
 
-- Person or organization developing model: Originally trained by [Nils Hjortnæs]() and the [Inclusive Technology for Marginalised Languages](https://itml.cl.indiana.edu/) group.
+- Person or organization developing model: Originally trained by [Nils Hjortnæs](https://github.com/hjortnaes) and the [Inclusive Technology for Marginalised Languages](https://itml.cl.indiana.edu/) group.
 - Model date: March 31, 2021
 - Model type: `Speech-to-Text`
 - Model version: `v0.0.1`
@@ -34,7 +34,7 @@ pages = "31--37"
 
 ## Intended use
 
-Speech-to-Text for the [Komi Language](https://en.wikipedia.org/wiki/Komi_language) on 16kHz, mono-channel audio.
+Speech-to-Text for the [Komi-Zyryan Language](https://en.wikipedia.org/wiki/Komi_language) on 16kHz, mono-channel audio.
 
 ## Performance Factors
 
