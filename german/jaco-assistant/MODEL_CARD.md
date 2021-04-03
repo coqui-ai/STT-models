@@ -13,7 +13,7 @@ Jump to section:
 
 ## Model details
 
-- Person or organization developing model: Originally trained by [DANBER](https://gitlab.com/DANBER)and released under the [Jaco-Assistant](https://gitlab.com/Jaco-Assistant/Scribosermo) project.
+- Person or organization developing model: Originally trained by [DANBER](https://gitlab.com/DANBER) and released under the [Jaco-Assistant](https://gitlab.com/Jaco-Assistant) project.
 - Model date: Accessed from [Gitlab](https://gitlab.com/Jaco-Assistant/Scribosermo) on March 31, 2021
 - Model type: `Speech-to-Text`
 - Model version: `v0.0.1`
@@ -22,7 +22,7 @@ Jump to section:
 - License: GNU Lesser General Public License
 - Citation details: `@misc{german-jaco,
 author = {DANBER},
-title = {German Jaco-Assistant},
+title = {German STT for Jaco-Assistant},
 publisher = {Jaco-Assistant},
 journal = {Gitlab},
 howpublished = {\url{https://gitlab.com/Jaco-Assistant/Scribosermo}},
