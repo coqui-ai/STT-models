@@ -13,7 +13,7 @@ Jump to section:
 
 ## Model details
 
-- Person or organization developing model: Originally trained by [Yurii Paniv](https://github.com/robinhad)and released under the [voice-recognition-ua](https://github.com/robinhad/voice-recognition-ua) project.
+- Person or organization developing model: Originally trained by [Yurii Paniv](https://github.com/robinhad) and released under the [voice-recognition-ua](https://github.com/robinhad/voice-recognition-ua) project.
 - Model date: Accessed from [Github](https://github.com/robinhad/voice-recognition-ua/releases/tag/v0.4) on March 31, 2021
 - Model type: `Speech-to-Text`
 - Model version: `0.4`
