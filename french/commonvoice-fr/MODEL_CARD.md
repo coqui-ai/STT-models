@@ -16,7 +16,7 @@ Jump to section:
 - Person or organization developing model: Originally trained and released by [Alexandre Lissy](https://github.com/lissyx) under the [commonvoice-fr](https://github.com/common-voice/commonvoice-fr) project
 - Model date: Accessed from [Github](https://github.com/common-voice/commonvoice-fr/releases/tag/fr-v0.6) on March 31, 2021
 - Model type: `Speech-to-Text`
-- Model version: `0.6`
+- Model version: `v0.6`
 - Code: [commonvoice-fr](https://github.com/common-voice/commonvoice-fr)
 - License: MPL 2.0
 - Citation details: `@misc{commonvoice-fr,

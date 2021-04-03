@@ -16,7 +16,7 @@ Jump to section:
 - Person or organization developing model: Originally released by [Digital Umuganda](https://digitalumuganda.com/).
 - Model date: Accessed from [Github](https://github.com/Digital-Umuganda/Deepspeech-Kinyarwanda/tree/master/jan-8-2021-best-kinya-deepspeech) on March 31, 2021
 - Model type: `Speech-to-Text`
-- Model version: `0.0.1`
+- Model version: `v0.0.1`
 - Code: [deepspeech-kinyarwanda](https://github.com/Digital-Umuganda/Deepspeech-Kinyarwanda)
 - License: MPL 2.0
 - Citation details: `@misc{deepspeech-kinyarwanda,

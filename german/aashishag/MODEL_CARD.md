@@ -16,7 +16,7 @@ Jump to section:
 - Person or organization developing model: Originally trained by [Aashish Agarwal](https://github.com/AASHISHAG) and released under the [deepspeech-german](https://github.com/AASHISHAG/deepspeech-german) project.
 - Model date: Accessed from [deepspeech-german](https://github.com/AASHISHAG/deepspeech-german) on March 31, 2021
 - Model type: `Speech-to-Text`
-- Model version: `0.9.0`
+- Model version: `v0.9.0`
 - Code: [deepspeech-german](https://github.com/AASHISHAG/deepspeech-german)
 - License: Apache 2.0
 - Citation details: `@inproceedings{agarwal-zesch-2019-german,

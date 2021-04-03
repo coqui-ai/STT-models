@@ -16,7 +16,7 @@ Jump to section:
 - Person or organization developing model: Originally trained by [DANBER](https://gitlab.com/DANBER)and released under the [Jaco-Assistant](https://gitlab.com/Jaco-Assistant/Scribosermo) project.
 - Model date: Accessed from [Gitlab](https://gitlab.com/Jaco-Assistant/Scribosermo) on March 31, 2021
 - Model type: `Speech-to-Text`
-- Model version: `0.0.1`
+- Model version: `v0.0.1`
 - Code: [scribosermo](https://gitlab.com/Jaco-Assistant/Scribosermo/-/tree/master/#old-experiments)
 - License: GNU Lesser General Public License
 - Citation details: `@misc{spanish-jaco,

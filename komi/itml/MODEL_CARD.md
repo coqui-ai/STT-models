@@ -16,7 +16,7 @@ Jump to section:
 - Person or organization developing model: Originally trained by [Nils Hjortnæs]() and the [Inclusive Technology for Marginalised Languages](https://itml.cl.indiana.edu/) group.
 - Model date: March 31, 2021
 - Model type: `Speech-to-Text`
-- Model version: `0.0.1`
+- Model version: `v0.0.1`
 - License: AGPL
 - Citation details: `@inproceedings{hjortnaes-etal-2020-towards,
 title = "Towards a Speech Recognizer for {K}omi, an Endangered and Low-Resource Uralic Language",

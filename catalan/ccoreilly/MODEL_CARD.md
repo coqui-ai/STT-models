@@ -16,7 +16,7 @@ Jump to section:
 - Person or organization developing model: Originally trained and released by [Ciaran O'Reilly](https://github.com/ccoreilly)
 - Model date: Accessed from [Github](https://github.com/ccoreilly/deepspeech-catala/releases/tag/0.14.0) on March 31, 2021
 - Model type: `Speech-to-Text`
-- Model version: `0.14.0`
+- Model version: `v0.14.0`
 - Code: [deepspeech-catala](https://github.com/ccoreilly/deepspeech-catala)
 - License: MIT
 - Citation details: `@misc{catalan-ccoreilly,
