@@ -45,7 +45,7 @@ STT models are usually evaluated in terms of their transcription accuracy, deplo
 
 #### Transcription Accuracy
 
-No available accuracy benchmarks.
+No exact statistics on transcription accuracy, however, Word Error Rate was in the range of 10% to 20% on Mozilla and Tuda-De test set. Relevant discussion [here](https://github.com/AASHISHAG/deepspeech-german/issues/39#issuecomment-812829812).
 
 #### Real-Time Factor
 
@@ -68,7 +68,7 @@ This German STT model was bootstrapped from a pre-trained English model, and fin
 
 ## Evaluation data
 
-No available information.
+This German STT model was evaluated on the following datasets: Common Voice 5.1 and Tuda-De.
 
 ## Ethical considerations
 
