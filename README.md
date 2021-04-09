@@ -10,6 +10,7 @@ This repository tracks releases of open models for 🐸STT.
 | [Chuvash](https://en.wikipedia.org/wiki/Chuvash_language) | [ITML](https://itml.cl.indiana.edu/) | [`v0.1.0`](https://github.com/coqui-ai/STT-models/releases/tag/chuvash/itml/v0.1.0) |
 | [Dhivehi](https://en.wikipedia.org/wiki/Dhivehi_language) | [ITML](https://itml.cl.indiana.edu/) | [`v0.1.0`](https://github.com/coqui-ai/STT-models/releases/tag/dhivehi/itml/v0.1.0) |
 | [Estonian](https://en.wikipedia.org/wiki/Estonian_language) | [ITML](https://itml.cl.indiana.edu/) | [`v0.1.0`](https://github.com/coqui-ai/STT-models/releases/tag/estonian/itml/v0.1.0) |
+| [Finnish](https://en.wikipedia.org/wiki/Finnish_language) | [ITML](https://itml.cl.indiana.edu/) | [`v0.1.0`](https://github.com/coqui-ai/STT-models/releases/tag/finnish/itml/v0.1.0) |
 | [French](https://en.wikipedia.org/wiki/French_language) | [commonvoice-fr](https://github.com/common-voice/commonvoice-fr) | [`v0.6`](https://github.com/coqui-ai/STT-models/releases/tag/french/commonvoice-fr/v0.6) |
 | [French](https://en.wikipedia.org/wiki/French_language) | [Jaco-Assistant](https://gitlab.com/Jaco-Assistant) | [`v0.0.1`](https://github.com/coqui-ai/STT-models/releases/tag/french/jaco-assistant/v0.0.1) |
 | [German](https://en.wikipedia.org/wiki/German_language) | [Aashish Agarwal](https://github.com/AASHISHAG) | [`v0.9.0`](https://github.com/coqui-ai/STT-models/releases/tag/german/AASHISHAG/v0.9.0) |
