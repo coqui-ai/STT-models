@@ -26,6 +26,7 @@ This repository tracks releases of open models for 🐸STT.
 | [Kinyarwanda](https://en.wikipedia.org/wiki/Kinyarwanda_language) | [Digital Umuganda](https://digitalumuganda.com/) | [`v0.0.1`](https://github.com/coqui-ai/STT-models/releases/tag/kinyarwanda/digital-umuganda/v0.0.1) |
 | [Komi-Zyrian](https://en.wikipedia.org/wiki/Komi_language) | [ITML](https://itml.cl.indiana.edu/) | [`v0.0.1`](https://github.com/coqui-ai/STT-models/releases/tag/komi/itml/v0.0.1) |
 | [Kyrgyz](https://en.wikipedia.org/wiki/Kyrgyz_language) | [ITML](https://itml.cl.indiana.edu/) | [`v0.1.0`](https://github.com/coqui-ai/STT-models/releases/tag/kyrgyz/itml/v0.1.0) |
+| [Latvian](https://en.wikipedia.org/wiki/Latvian_language) | [ITML](https://itml.cl.indiana.edu/) | [`v0.1.0`](https://github.com/coqui-ai/STT-models/releases/tag/latvian/itml/v0.1.0) |
 | [Luganda](https://en.wikipedia.org/wiki/Luganda_language) | [ITML](https://itml.cl.indiana.edu/) | [`v0.1.0`](https://github.com/coqui-ai/STT-models/releases/tag/luganda/itml/v0.1.0) |
 | [Polish](https://en.wikipedia.org/wiki/Polish_language) | [Jaco-Assistant](https://gitlab.com/Jaco-Assistant) | [`v0.0.1`](https://github.com/coqui-ai/STT-models/releases/tag/polish/jaco-assistant/v0.0.1) |
 | [Spanish](https://en.wikipedia.org/wiki/Spanish_language) | [Jaco-Assistant](https://gitlab.com/Jaco-Assistant) | [`v0.0.1`](https://github.com/coqui-ai/STT-models/releases/tag/spanish/jaco-assistant/v0.0.1) |
