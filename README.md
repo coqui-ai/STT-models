@@ -5,6 +5,7 @@ This repository tracks releases of open models for 🐸STT.
 | Language | Creator | Release |
 |----------|---------|---------|
 | [Basque](https://en.wikipedia.org/wiki/Basque_language) | [ITML](https://itml.cl.indiana.edu/) | [`v0.1.0`](https://github.com/coqui-ai/STT-models/releases/tag/basque/itml/v0.1.0) |
+| [Breton](https://en.wikipedia.org/wiki/Breton_language) | [ITML](https://itml.cl.indiana.edu/) | [`v0.1.0`](https://github.com/coqui-ai/STT-models/releases/tag/breton/itml/v0.1.0) |
 | [Catalan](https://en.wikipedia.org/wiki/Catalan_language) | [Ciaran O'Reilly](https://github.com/ccoreilly) | [`v0.14.0`](https://github.com/coqui-ai/STT-models/releases/tag/catalan/ccoreilly/v0.14.0) |
 | [Chuvash](https://en.wikipedia.org/wiki/Chuvash_language) | [ITML](https://itml.cl.indiana.edu/) | [`v0.1.0`](https://github.com/coqui-ai/STT-models/releases/tag/chuvash/itml/v0.1.0) |
 | [French](https://en.wikipedia.org/wiki/French_language) | [commonvoice-fr](https://github.com/common-voice/commonvoice-fr) | [`v0.6`](https://github.com/coqui-ai/STT-models/releases/tag/french/commonvoice-fr/v0.6) |
