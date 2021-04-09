@@ -18,6 +18,7 @@ This repository tracks releases of open models for 🐸STT.
 | [German](https://en.wikipedia.org/wiki/German_language) | [Aashish Agarwal](https://github.com/AASHISHAG) | [`v0.9.0`](https://github.com/coqui-ai/STT-models/releases/tag/german/AASHISHAG/v0.9.0) |
 | [German](https://en.wikipedia.org/wiki/German_language) | [Jaco-Assistant](https://gitlab.com/Jaco-Assistant) | [`v0.0.1`](https://github.com/coqui-ai/STT-models/releases/tag/german/jaco-assistant/v0.0.1) |
 | [Greek](https://en.wikipedia.org/wiki/Greek_language) | [ITML](https://itml.cl.indiana.edu/) | [`v0.1.0`](https://github.com/coqui-ai/STT-models/releases/tag/greek/itml/v0.1.0) |
+| [Hakha Chin](https://en.wikipedia.org/wiki/Hakha_Chin_language) | [ITML](https://itml.cl.indiana.edu/) | [`v0.1.0`](https://github.com/coqui-ai/STT-models/releases/tag/hakha-chin/itml/v0.1.0) |
 | [Italian](https://en.wikipedia.org/wiki/Italian_language) | [Jaco-Assistant](https://gitlab.com/Jaco-Assistant) | [`v0.0.1`](https://github.com/coqui-ai/STT-models/releases/tag/italian/jaco-assistant/v0.0.1) |
 | [Kinyarwanda](https://en.wikipedia.org/wiki/Kinyarwanda_language) | [Digital Umuganda](https://digitalumuganda.com/) | [`v0.0.1`](https://github.com/coqui-ai/STT-models/releases/tag/kinyarwanda/digital-umuganda/v0.0.1) |
 | [Komi-Zyrian](https://en.wikipedia.org/wiki/Komi_language) | [ITML](https://itml.cl.indiana.edu/) | [`v0.0.1`](https://github.com/coqui-ai/STT-models/releases/tag/komi/itml/v0.0.1) |
