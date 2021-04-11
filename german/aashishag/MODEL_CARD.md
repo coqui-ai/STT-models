@@ -49,7 +49,7 @@ No exact statistics on transcription accuracy, however, Word Error Rate was in t
 
 #### Real-Time Factor
 
-Real-Time Factor (RTF) is defined as `proccesing-time / length-of-audio`. The exact real-time factor of an STT model will depend on the hardware setup, so you may experience a different RTF.
+Real-Time Factor (RTF) is defined as `processing-time / length-of-audio`. The exact real-time factor of an STT model will depend on the hardware setup, so you may experience a different RTF.
 
 Recorded average RTF on laptop CPU: `.69`
 

@@ -37,7 +37,7 @@ STT models are usually evaluated in terms of their transcription accuracy, deplo
 
 #### Transcription Accuracy
 
-The following Word Error Rates and Character Error Rates are reported on [omnilingo](https://tepozcatl.omnilingo.cc/cv/).
+The following Word Error Rates and Character Error Rates are reported on [omnilingo](https://tepozcatl.omnilingo.cc/hu/).
 
 |Test Corpus|WER|CER|
 |-----------|---|---|
@@ -45,7 +45,7 @@ The following Word Error Rates and Character Error Rates are reported on [omnili
 
 #### Real-Time Factor
 
-Real-Time Factor (RTF) is defined as `proccesing-time / length-of-audio`. The exact real-time factor of an STT model will depend on the hardware setup, so you may experience a different RTF.
+Real-Time Factor (RTF) is defined as `processing-time / length-of-audio`. The exact real-time factor of an STT model will depend on the hardware setup, so you may experience a different RTF.
 
 Recorded average RTF on laptop CPU: ``
 

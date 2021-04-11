@@ -1,4 +1,4 @@
-# Model card for Indonesian STT
+# Model card for English STT
 
 Jump to section:
 
@@ -13,19 +13,19 @@ Jump to section:
 
 ## Model details
 
-- Person or organization developing model: Originally trained by [Francis Tyers](https://scholar.google.fr/citations?user=o5HSM6cAAAAJ) and the [Inclusive Technology for Marginalised Languages](https://itml.cl.indiana.edu/) group.
-- Model language: Indonesian / Bahasa indonesia / `id`
+- Person or organization developing model: Maintained by [Coqui](https://coqui.ai/).
+- Model language: English / English / `en`
 - Model date: April 9, 2021
 - Model type: `Speech-to-Text`
-- Model version: `v0.1.0`
+- Model version: `v0.9.3`
 - Compatible with 🐸 STT version: `v0.9.3`
-- License: AGPL
-- Citation details: `@techreport{indonesian-stt, author = {Tyers,Francis}, title = {Indonesian STT 0.1}, institution = {Coqui}, address = {\url{https://github.com/coqui-ai/STT-models}} year = {2021}, month = {April}, number = {STT-CV6.1-ID-0.1} }`
+- License: MPL
+- Citation details: `@techreport{english-stt, author = {Coqui}, title = {English STT 0.9.3}, institution = {Coqui}, address = {\url{https://github.com/coqui-ai/STT-models}} year = {2021}, month = {April}, number = {STT-EN-0.9.3} }`
 - Where to send questions or comments about the model: You can leave an issue on [`STT-model` issues](https://github.com/coqui-ai/STT-models/issues), open a new discussion on [`STT-model` discussions](https://github.com/coqui-ai/STT-models/discussions), or chat with us on [Gitter](https://gitter.im/coqui-ai/).
 
 ## Intended use
 
-Speech-to-Text for the [Indonesian Language](https://en.wikipedia.org/wiki/Indonesian_language) on 16kHz, mono-channel audio.
+Speech-to-Text for the [English Language](https://en.wikipedia.org/wiki/English_language) on 16kHz, mono-channel audio.
 
 ## Performance Factors
 
@@ -37,11 +37,7 @@ STT models are usually evaluated in terms of their transcription accuracy, deplo
 
 #### Transcription Accuracy
 
-The following Word Error Rates and Character Error Rates are reported on [omnilingo](https://tepozcatl.omnilingo.cc/id/).
-
-|Test Corpus|WER|CER|
-|-----------|---|---|
-|Common Voice|89.7\%|30.3\%|
+More detail on model training and evaluation can be found in the [release notes](https://github.com/coqui-ai/STT/releases/tag/v0.9.3).
 
 #### Real-Time Factor
 
@@ -60,11 +56,11 @@ Confidence scores and multiple paths from the decoding beam can be used to measu
 
 ## Training data
 
-This model was trained on Common Voice 6.1 train.
+This model was trained on the following corpora: Fisher, LibriSpeech, Switchboard, Common Voice English, and 1,700 hours of transcribed NPR (WAMU) radio shows explicitly licensed to use as training corpora.
 
 ## Evaluation data
 
-The Model was evaluated on Common Voice 6.1 test.
+The Model was evaluated on the LibriSpeech clean dev corpus as validation data, and LibriSpeech clean test as testing data.
 
 ## Ethical considerations
 

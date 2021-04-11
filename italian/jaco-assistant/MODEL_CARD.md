@@ -52,7 +52,7 @@ The following Word Error Rates (WER) are reported on [Gitlab](https://gitlab.com
 
 #### Real-Time Factor
 
-Real-Time Factor (RTF) is defined as `proccesing-time / length-of-audio`. The exact real-time factor of an STT model will depend on the hardware setup, so you may experience a different RTF.
+Real-Time Factor (RTF) is defined as `processing-time / length-of-audio`. The exact real-time factor of an STT model will depend on the hardware setup, so you may experience a different RTF.
 
 Recorded average RTF on laptop CPU: ``
 
