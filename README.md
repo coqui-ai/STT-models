@@ -37,6 +37,7 @@ This repository tracks releases of open models for 🐸STT.
 | [Portuguese](https://en.wikipedia.org/wiki/Portuguese_language) | [ITML](https://itml.cl.indiana.edu/) | [`v0.1.0`](https://github.com/coqui-ai/STT-models/releases/tag/portuguese/itml/v0.1.0) |
 | [Romanian](https://en.wikipedia.org/wiki/Romanian_language) | [ITML](https://itml.cl.indiana.edu/) | [`v0.1.0`](https://github.com/coqui-ai/STT-models/releases/tag/romanian/itml/v0.1.0) |
 | [Sakha](https://en.wikipedia.org/wiki/Sakha_language) | [ITML](https://itml.cl.indiana.edu/) | [`v0.1.0`](https://github.com/coqui-ai/STT-models/releases/tag/sakha/itml/v0.1.0) |
+| [Slovenian](https://en.wikipedia.org/wiki/Slovenian_language) | [ITML](https://itml.cl.indiana.edu/) | [`v0.1.0`](https://github.com/coqui-ai/STT-models/releases/tag/slovenian/itml/v0.1.0) |
 | [Spanish](https://en.wikipedia.org/wiki/Spanish_language) | [Jaco-Assistant](https://gitlab.com/Jaco-Assistant) | [`v0.0.1`](https://github.com/coqui-ai/STT-models/releases/tag/spanish/jaco-assistant/v0.0.1) |
 | [Ukrainian](https://en.wikipedia.org/wiki/Ukrainian_language) | [Yurii Paniv](https://github.com/robinhad/) | [`v0.4`](https://github.com/coqui-ai/STT-models/releases/tag/ukrainian/robinhad/v0.4) |
 | [Welsh](https://en.wikipedia.org/wiki/Welsh_language) | [Dewi Bryn Jones](https://github.com/dewibrynjones/) | [`v21.03`](https://github.com/coqui-ai/STT-models/releases/tag/welsh/techiaith/v21.03) |
