@@ -14,8 +14,8 @@ This repository tracks releases of open models for 🐸STT.
 | [English](https://en.wikipedia.org/wiki/English_language) | [Coqui](https://coqui.ai/) | [`v0.9.3`](https://github.com/coqui-ai/STT-models/releases/tag/english/coqui/v0.9.3) |
 | [Finnish](https://en.wikipedia.org/wiki/Finnish_language) | [ITML](https://itml.cl.indiana.edu/) | [`v0.1.0`](https://github.com/coqui-ai/STT-models/releases/tag/finnish/itml/v0.1.0) |
 | [French](https://en.wikipedia.org/wiki/French_language) | [commonvoice-fr](https://github.com/common-voice/commonvoice-fr) | [`v0.6`](https://github.com/coqui-ai/STT-models/releases/tag/french/commonvoice-fr/v0.6) |
-| [Frisian](https://en.wikipedia.org/wiki/Frisian_language) | [ITML](https://itml.cl.indiana.edu/) | [`v0.1.0`](https://github.com/coqui-ai/STT-models/releases/tag/frisian/itml/v0.1.0) |
 | [French](https://en.wikipedia.org/wiki/French_language) | [Jaco-Assistant](https://gitlab.com/Jaco-Assistant) | [`v0.0.1`](https://github.com/coqui-ai/STT-models/releases/tag/french/jaco-assistant/v0.0.1) |
+| [Frisian](https://en.wikipedia.org/wiki/Frisian_language) | [ITML](https://itml.cl.indiana.edu/) | [`v0.1.0`](https://github.com/coqui-ai/STT-models/releases/tag/frisian/itml/v0.1.0) |
 | [Georgian](https://en.wikipedia.org/wiki/Georgian_language) | [ITML](https://itml.cl.indiana.edu/) | [`v0.1.0`](https://github.com/coqui-ai/STT-models/releases/tag/georgian/itml/v0.1.0) |
 | [German](https://en.wikipedia.org/wiki/German_language) | [Aashish Agarwal](https://github.com/AASHISHAG) | [`v0.9.0`](https://github.com/coqui-ai/STT-models/releases/tag/german/AASHISHAG/v0.9.0) |
 | [German](https://en.wikipedia.org/wiki/German_language) | [Jaco-Assistant](https://gitlab.com/Jaco-Assistant) | [`v0.0.1`](https://github.com/coqui-ai/STT-models/releases/tag/german/jaco-assistant/v0.0.1) |
