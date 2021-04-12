@@ -14,6 +14,7 @@ Jump to section:
 ## Model details
 
 - Person or organization developing model: Originally trained by [Dewi Bryn Jones](https://github.com/DewiBrynJones) and released by the [Techiaith Language Technologies Unit](https://github.com/techiaith)
+- Model language: Welsh / Cymraeg / `cy`
 - Model date: Accessed from [Github](https://github.com/techiaith/docker-deepspeech-cy/releases/tag/21.03) on March 31, 2021
 - Model type: `Speech-to-Text`
 - Model version: `v21.03`
