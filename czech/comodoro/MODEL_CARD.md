@@ -20,7 +20,7 @@ Jump to section:
 - Model version: `v0.1.0`
 - Compatible with 🐸 STT version: `v0.9.3`
 - License: CC-BY-NC
-- Citation details: `@techreport{chuvash-stt, author = {Drábek,Vojtěch}, title = {Czech STT 0.1}, institution = {Coqui}, address = {\url{https://github.com/coqui-ai/STT-models}} year = {2021}, month = {April}, number = {STT-CV6.1-CS-0.1} }`
+- Citation details: `@techreport{chuvash-stt, author = {Drábek,Vojtěch}, title = {Czech STT 0.1}, institution = {Coqui}, address = {\url{https://github.com/coqui-ai/STT-models}} year = {2021}, month = {April}, number = {STT-CS-0.1} }`
 - Where to send questions or comments about the model: You can leave an issue on [`STT-model` issues](https://github.com/coqui-ai/STT-models/issues), open a new discussion on [`STT-model` discussions](https://github.com/coqui-ai/STT-models/discussions), or chat with us on [Gitter](https://gitter.im/coqui-ai/).
 
 ## Intended use
@@ -38,6 +38,10 @@ STT models are usually evaluated in terms of their transcription accuracy, deplo
 #### Transcription Accuracy
 
 More information reported on [Github](https://github.com/comodoro/deepspeech-cs/).
+
+|Test Corpus|WER|CER|
+|-----------|---|---|
+|Common Voice|44.6\%|11.2\%|
 
 #### Real-Time Factor
 
