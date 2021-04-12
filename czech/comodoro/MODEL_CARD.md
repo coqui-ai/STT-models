@@ -71,7 +71,7 @@ This model was trained on the following corpora:
 
 ## Evaluation data
 
-N/A
+The model was evaluated on Common Voice Czech.
 
 ## Ethical considerations
 
