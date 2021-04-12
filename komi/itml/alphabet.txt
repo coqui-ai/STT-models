@@ -1,0 +1,61 @@
+# Each line in this file represents the Unicode codepoint (UTF-8 encoded)
+# associated with a numeric label.
+# A line that starts with # is a comment. You can escape it with \# if you wish
+# to use '#' as a label.
+р
+ь
+щ
+;
+э
+г
+ʼ
+ӯ
+е
+)
+т
+ӵ
+с
+\#
+ч
+о
+̄
+«
+ѕ
+а
+»
+п
+!
+я
+ж
+н
+ъ
+в
+к
+у
+:
+ш
+л
+ӈ
+ы
+ё
+ц
+ӥ
+б
+х
+/
+ӧ
+і
+й
+ā
+–
+—
+ˮ
+ф
+д
+м
+и
+ 
+з
+“
+ю
+### ^^^ You can copy-paste these into data/alphabet.txt ###
