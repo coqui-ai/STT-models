@@ -8,6 +8,7 @@ This repository tracks releases of open models for 🐸STT.
 | [Breton](https://en.wikipedia.org/wiki/Breton_language) | [ITML](https://itml.cl.indiana.edu/) | [`v0.1.0`](https://github.com/coqui-ai/STT-models/releases/tag/breton/itml/v0.1.0) |
 | [Catalan](https://en.wikipedia.org/wiki/Catalan_language) | [Ciaran O'Reilly](https://github.com/ccoreilly) | [`v0.14.0`](https://github.com/coqui-ai/STT-models/releases/tag/catalan/ccoreilly/v0.14.0) |
 | [Chuvash](https://en.wikipedia.org/wiki/Chuvash_language) | [ITML](https://itml.cl.indiana.edu/) | [`v0.1.0`](https://github.com/coqui-ai/STT-models/releases/tag/chuvash/itml/v0.1.0) |
+| [Czech](https://en.wikipedia.org/wiki/Czech_language) | [Vojtěch Drábek](https://github.com/comodoro) | [`v0.1.0`](https://github.com/coqui-ai/STT-models/releases/tag/czech/comodoro/v0.1.0) |
 | [Dhivehi](https://en.wikipedia.org/wiki/Dhivehi_language) | [ITML](https://itml.cl.indiana.edu/) | [`v0.1.0`](https://github.com/coqui-ai/STT-models/releases/tag/dhivehi/itml/v0.1.0) |
 | [Estonian](https://en.wikipedia.org/wiki/Estonian_language) | [ITML](https://itml.cl.indiana.edu/) | [`v0.1.0`](https://github.com/coqui-ai/STT-models/releases/tag/estonian/itml/v0.1.0) |
 | [English](https://en.wikipedia.org/wiki/English_language) | [Coqui](https://coqui.ai/) | [`v0.9.3`](https://github.com/coqui-ai/STT-models/releases/tag/english/coqui/v0.9.3) |
