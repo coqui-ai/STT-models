@@ -1,3 +1,4 @@
 *~
 *.pbmm
 *.tflite
+**/MODEL_CARD
