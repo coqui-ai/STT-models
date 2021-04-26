@@ -1,4 +1,4 @@
-# Model card for Frisian STT
+# Model card for Breton STT
 
 Jump to section:
 
@@ -14,18 +14,18 @@ Jump to section:
 ## Model details
 
 - Person or organization developing model: Originally trained by [Francis Tyers](https://scholar.google.fr/citations?user=o5HSM6cAAAAJ) and the [Inclusive Technology for Marginalised Languages](https://itml.cl.indiana.edu/) group.
-- Model language: Frisian / Frysk / `fy-NL`
+- Model language: Breton / Brezhoneg / `br`
 - Model date: April 9, 2021
 - Model type: `Speech-to-Text`
-- Model version: `v0.1.0`
+- Model version: `v0.1.1`
 - Compatible with 🐸 STT version: `v0.9.3`
 - License: AGPL
-- Citation details: `@techreport{frisian-stt, author = {Tyers,Francis}, title = {Frisian STT 0.1}, institution = {Coqui}, address = {\url{https://github.com/coqui-ai/STT-models}} year = {2021}, month = {April}, number = {STT-CV6.1-FY_NL-0.1} }`
+- Citation details: `@techreport{breton-stt, author = {Tyers,Francis}, title = {Breton STT 0.1}, institution = {Coqui}, address = {\url{https://github.com/coqui-ai/STT-models}} year = {2021}, month = {April}, number = {STT-CV6.1-BR-0.1} }`
 - Where to send questions or comments about the model: You can leave an issue on [`STT-model` issues](https://github.com/coqui-ai/STT-models/issues), open a new discussion on [`STT-model` discussions](https://github.com/coqui-ai/STT-models/discussions), or chat with us on [Gitter](https://gitter.im/coqui-ai/).
 
 ## Intended use
 
-Speech-to-Text for the [Chuvash Language](https://en.wikipedia.org/wiki/Chuvash_language) on 16kHz, mono-channel audio.
+Speech-to-Text for the [Breton Language](https://en.wikipedia.org/wiki/Breton_language) on 16kHz, mono-channel audio.
 
 ## Performance Factors
 
@@ -37,15 +37,15 @@ STT models are usually evaluated in terms of their transcription accuracy, deplo
 
 #### Transcription Accuracy
 
-The following Word Error Rates and Character Error Rates are reported on [omnilingo](https://tepozcatl.omnilingo.cc/cv/).
+The following Word Error Rates and Character Error Rates are reported on [omnilingo](https://tepozcatl.omnilingo.cc/br/).
 
 |Test Corpus|WER|CER|
 |-----------|---|---|
-|Common Voice|79.6.\%|29.9\%|
+|Common Voice|89.1\%|37.7\%|
 
 #### Real-Time Factor
 
-Real-Time Factor (RTF) is defined as `proccesing-time / length-of-audio`. The exact real-time factor of an STT model will depend on the hardware setup, so you may experience a different RTF.
+Real-Time Factor (RTF) is defined as `processing-time / length-of-audio`. The exact real-time factor of an STT model will depend on the hardware setup, so you may experience a different RTF.
 
 Recorded average RTF on laptop CPU: ``
 
