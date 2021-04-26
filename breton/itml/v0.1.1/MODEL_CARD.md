@@ -15,7 +15,7 @@ Jump to section:
 
 - Person or organization developing model: Originally trained by [Francis Tyers](https://scholar.google.fr/citations?user=o5HSM6cAAAAJ) and the [Inclusive Technology for Marginalised Languages](https://itml.cl.indiana.edu/) group.
 - Model language: Breton / Brezhoneg / `br`
-- Model date: April 9, 2021
+- Model date: April 26, 2021
 - Model type: `Speech-to-Text`
 - Model version: `v0.1.1`
 - Compatible with 🐸 STT version: `v0.9.3`
