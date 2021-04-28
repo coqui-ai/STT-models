@@ -1,4 +1,4 @@
-# Model card for Tamil STT
+# Model card for Tatar STT
 
 Jump to section:
 
