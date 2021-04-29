@@ -41,7 +41,7 @@ The following Word Error Rates and Character Error Rates are reported on [omnili
 
 |Test Corpus|WER|CER|
 |-----------|---|---|
-|Common Voice|75.1\%|29.4\%|
+|ALFFA|75.1\%|29.4\%|
 
 #### Real-Time Factor
 
