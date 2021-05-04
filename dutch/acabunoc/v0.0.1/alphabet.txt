@@ -1,0 +1,49 @@
+### Reading in the following transcript files: ###
+### ['/content/nl/cv-corpus-5-2020-06-22/nl/clips/train.csv', '/content/nl/cv-corpus-5-2020-06-22/nl/clips/dev.csv', '/content/nl/cv-corpus-5-2020-06-22/nl/clips/test.csv'] ###
+### The following unique characters were found in your transcripts: ###
+s
+ 
+j
+ç
+q
+é
+f
+i
+—
+h
+…
+m
+g
+u
+“
+û
+p
+x
+ó
+ï
+’
+ê
+ü
+à
+a
+k
+c
+v
+t
+'
+w
+n
+d
+e
+y
+ë
+r
+z
+”
+ö
+î
+l
+o
+è
+b
+### ^^^ You can copy-paste these into data/alphabet.txt ###
