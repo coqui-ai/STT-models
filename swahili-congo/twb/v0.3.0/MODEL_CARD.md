@@ -1,4 +1,4 @@
-# Model card for Bengali STT
+# Model card for Swahili (Congo) STT
 
 Jump to section:
 
