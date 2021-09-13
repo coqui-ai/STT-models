@@ -19,7 +19,7 @@ Jump to section:
 - Model type: `Speech-to-Text`
 - Model version: `v0.9.3`
 - Compatible with 🐸 STT version: `v0.9.3`
-- License: MPL
+- License: MPL 2.0
 - Citation details: `@techreport{english-stt, author = {Coqui}, title = {English STT 0.9.3}, institution = {Coqui}, address = {\url{https://github.com/coqui-ai/STT-models}} year = {2021}, month = {April}, number = {STT-EN-0.9.3} }`
 - Where to send questions or comments about the model: You can leave an issue on [`STT-model` issues](https://github.com/coqui-ai/STT-models/issues), open a new discussion on [`STT-model` discussions](https://github.com/coqui-ai/STT-models/discussions), or chat with us on [Gitter](https://gitter.im/coqui-ai/).
 
