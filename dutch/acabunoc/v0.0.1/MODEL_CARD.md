@@ -19,7 +19,7 @@ Jump to section:
 - Model type: `Speech-to-Text`
 - Model version: `v0.0.1`
 - Compatible with 🐸 STT version: `v0.9.3`
-- License: MPL
+- License: MPL 2.0
 - Citation details: `@techreport{dutch-stt, author = {Cabunoc Mayes,Abigail}, title = {Dutch STT 0.0.1}, institution = {Coqui}, address = {\url{https://coqui.ai/models}} year = {2020}, month = {July}, number = {STT-CV-NL-0.0.1} }`
 - Where to send questions or comments about the model: You can leave an issue on [`STT-model` issues](https://github.com/coqui-ai/STT-models/issues), open a new discussion on [`STT-model` discussions](https://github.com/coqui-ai/STT-models/discussions), or chat with us on [Gitter](https://gitter.im/coqui-ai/).
 
