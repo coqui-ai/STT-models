@@ -1,0 +1,285 @@
+I Loading best validating checkpoint from oct-3-english-stt-checkpoints/acoustic_model/checkpoints/best_dev-3663881
+I Loading variable from checkpoint: cudnn_lstm/rnn/multi_rnn_cell/cell_0/cudnn_compatible_lstm_cell/bias
+I Loading variable from checkpoint: cudnn_lstm/rnn/multi_rnn_cell/cell_0/cudnn_compatible_lstm_cell/kernel
+I Loading variable from checkpoint: global_step
+I Loading variable from checkpoint: layer_1/bias
+I Loading variable from checkpoint: layer_1/weights
+I Loading variable from checkpoint: layer_2/bias
+I Loading variable from checkpoint: layer_2/weights
+I Loading variable from checkpoint: layer_3/bias
+I Loading variable from checkpoint: layer_3/weights
+I Loading variable from checkpoint: layer_5/bias
+I Loading variable from checkpoint: layer_5/weights
+I Loading variable from checkpoint: layer_6/bias
+I Loading variable from checkpoint: layer_6/weights
+Testing model on en-data/test.csv
+Test epoch | Steps: 0 | Elapsed Time: 0:00:00
+Test epoch | Steps: 1 | Elapsed Time: 0:01:44
+Test epoch | Steps: 2 | Elapsed Time: 0:03:39
+Test epoch | Steps: 3 | Elapsed Time: 0:05:58
+Test epoch | Steps: 4 | Elapsed Time: 0:08:29
+Test epoch | Steps: 5 | Elapsed Time: 0:11:32
+Test epoch | Steps: 6 | Elapsed Time: 0:15:00
+Test epoch | Steps: 7 | Elapsed Time: 0:15:25
+Test epoch | Steps: 7 | Elapsed Time: 0:15:25
+Test on en-data/test.csv - WER: 0.556905, CER: 0.242533, loss: 51.432274
+--------------------------------------------------------------------------------
+Best WER: 
+--------------------------------------------------------------------------------
+WER: 0.000000, CER: 0.000000, loss: 8.822855
+ - wav: file://en-data/common_voice_en_20299104.opus
+ - src: "the upper school also offers academic travel programs to france africa india and spain"
+ - res: "the upper school also offers academic travel programs to france africa india and spain"
+--------------------------------------------------------------------------------
+WER: 0.000000, CER: 0.000000, loss: 8.564441
+ - wav: file://en-data/common_voice_en_26959617.opus
+ - src: "the campus also includes a large auditorium suited for conferences concerts and presentations"
+ - res: "the campus also includes a large auditorium suited for conferences concerts and presentations"
+--------------------------------------------------------------------------------
+WER: 0.000000, CER: 0.029412, loss: 6.947095
+ - wav: file://en-data/common_voice_en_19554033.opus
+ - src: "the reality is gradual development"
+ - res: "the reality is gradual development "
+--------------------------------------------------------------------------------
+WER: 0.000000, CER: 0.000000, loss: 6.551123
+ - wav: file://en-data/common_voice_en_21717279.opus
+ - src: "these are much more numerous than those for men"
+ - res: "these are much more numerous than those for men"
+--------------------------------------------------------------------------------
+WER: 0.000000, CER: 0.000000, loss: 6.341191
+ - wav: file://en-data/common_voice_en_20295345.opus
+ - src: "television is macedonia's most popular news medium"
+ - res: "television is macedonia's most popular news medium"
+--------------------------------------------------------------------------------
+Median WER: 
+--------------------------------------------------------------------------------
+WER: 0.555556, CER: 0.185185, loss: 31.860331
+ - wav: file://en-data/common_voice_en_24980218.opus
+ - src: "boardman's wife perdita was once married to ray nelson"
+ - res: "modman's wife per daton was once married to rain elson"
+--------------------------------------------------------------------------------
+WER: 0.555556, CER: 0.166667, loss: 31.614378
+ - wav: file://en-data/common_voice_en_18758347.opus
+ - src: "in that case there exists an odd darboux theorem"
+ - res: "in that case there exist and odd do bol theram"
+--------------------------------------------------------------------------------
+WER: 0.555556, CER: 0.200000, loss: 31.525776
+ - wav: file://en-data/common_voice_en_178571.opus
+ - src: "there are cheerleaders tossing a member in the air"
+ - res: "there are ju leaders possing am enbet in the air"
+--------------------------------------------------------------------------------
+WER: 0.555556, CER: 0.196429, loss: 29.960619
+ - wav: file://en-data/common_voice_en_26957296.opus
+ - src: "pearce adjoins the suburbs of torrens mawson and chifley"
+ - res: "beus adjoines the suburbs of torrents mosson and chiffly"
+--------------------------------------------------------------------------------
+WER: 0.555556, CER: 0.195652, loss: 29.913713
+ - wav: file://en-data/common_voice_en_21087736.opus
+ - src: "the lintel has traces of red and blue pigments"
+ - res: "the linder has traces of brdand lupicments"
+--------------------------------------------------------------------------------
+Worst WER: 
+--------------------------------------------------------------------------------
+WER: 2.000000, CER: 0.703125, loss: 163.661453
+ - wav: file://en-data/common_voice_en_20651076.opus
+ - src: "some individual developer profiles have biographical information"
+ - res: "salin te gitual be in tot wol for in fal by an ficore onmasion"
+--------------------------------------------------------------------------------
+WER: 2.166667, CER: 1.259259, loss: 146.137726
+ - wav: file://en-data/common_voice_en_20848908.opus
+ - src: "for god's sake look at this"
+ - res: "o o en ol o ot the with an a of wi underaac"
+--------------------------------------------------------------------------------
+WER: 2.285714, CER: 0.854167, loss: 136.885742
+ - wav: file://en-data/common_voice_en_26970884.opus
+ - src: "they worked together on developing the octoechos"
+ - res: "i eaty an wit at is they walked to get on teveloping e otso echoes wit a a"
+--------------------------------------------------------------------------------
+WER: 2.375000, CER: 1.196078, loss: 175.302841
+ - wav: file://en-data/common_voice_en_18778827.opus
+ - src: "these extra cards were inserted randomly into packs"
+ - res: "poor  but that is rus extra cars worn tes youre to the run tho wie is acles brag tat yara"
+--------------------------------------------------------------------------------
+WER: 3.000000, CER: 2.166667, loss: 101.343262
+ - wav: file://en-data/common_voice_en_18829045.opus
+ - src: "all were portraits"
+ - res: "most the tocho wore fortuns soed y aced agreanect"
+--------------------------------------------------------------------------------
+Testing model on librispeech/librivox-test-clean.csv
+Test epoch | Steps: 0 | Elapsed Time: 0:00:00
+Test epoch | Steps: 1 | Elapsed Time: 0:01:34
+Test epoch | Steps: 2 | Elapsed Time: 0:04:43
+Test epoch | Steps: 3 | Elapsed Time: 0:10:11
+Test epoch | Steps: 3 | Elapsed Time: 0:10:11
+Test on librispeech/librivox-test-clean.csv - WER: 0.077336, CER: 0.023411, loss: 8.554506
+--------------------------------------------------------------------------------
+Best WER: 
+--------------------------------------------------------------------------------
+WER: 0.000000, CER: 0.000000, loss: 5.426578
+ - wav: file://librispeech/LibriSpeech/test-clean-wav/1995-1836-0013.wav
+ - src: "mary taylor however related the tale of zora to missus grey's private ear later"
+ - res: "mary taylor however related the tale of zora to missus grey's private ear later"
+--------------------------------------------------------------------------------
+WER: 0.000000, CER: 0.000000, loss: 5.167068
+ - wav: file://librispeech/LibriSpeech/test-clean-wav/2300-131720-0033.wav
+ - src: "in december eighteen eighty eight mister w j jenks read an interesting paper before the american institute of electrical engineers on the six years of practical experience had up to that time with the meter then more generally in use than any other"
+ - res: "in december eighteen eighty eight mister w j jenks read an interesting paper before the american institute of electrical engineers on the six years of practical experience had up to that time with the meter then more generally in use than any other"
+--------------------------------------------------------------------------------
+WER: 0.000000, CER: 0.000000, loss: 4.850872
+ - wav: file://librispeech/LibriSpeech/test-clean-wav/672-122797-0006.wav
+ - src: "to grow and grow to get older and be tall thought the tree that after all is the most delightful thing in the world"
+ - res: "to grow and grow to get older and be tall thought the tree that after all is the most delightful thing in the world"
+--------------------------------------------------------------------------------
+WER: 0.000000, CER: 0.000000, loss: 4.657650
+ - wav: file://librispeech/LibriSpeech/test-clean-wav/121-127105-0024.wav
+ - src: "poor douglas before his death when it was in sight committed to me the manuscript that reached him on the third of these days and that on the same spot with immense effect he began to read to our hushed little circle on the night of the fourth"
+ - res: "poor douglas before his death when it was in sight committed to me the manuscript that reached him on the third of these days and that on the same spot with immense effect he began to read to our hushed little circle on the night of the fourth"
+--------------------------------------------------------------------------------
+WER: 0.000000, CER: 0.035714, loss: 4.607095
+ - wav: file://librispeech/LibriSpeech/test-clean-wav/1580-141084-0007.wav
+ - src: "to morrow is the examination"
+ - res: " to morrow is the examination"
+--------------------------------------------------------------------------------
+Median WER: 
+--------------------------------------------------------------------------------
+WER: 0.055556, CER: 0.009009, loss: 3.372318
+ - wav: file://librispeech/LibriSpeech/test-clean-wav/1221-135766-0004.wav
+ - src: "this outward mutability indicated and did not more than fairly express the various properties of her inner life"
+ - res: "this outward mudability indicated and did not more than fairly express the various properties of her inner life"
+--------------------------------------------------------------------------------
+WER: 0.055556, CER: 0.009009, loss: 2.905831
+ - wav: file://librispeech/LibriSpeech/test-clean-wav/7127-75946-0015.wav
+ - src: "suddenly for the purpose of restoring peace and order spring accompanied by his whole court made his appearance"
+ - res: "suddenly for the purpose of restoring peace ind order spring accompanied by his whole court made his appearance"
+--------------------------------------------------------------------------------
+WER: 0.055556, CER: 0.010989, loss: 2.877020
+ - wav: file://librispeech/LibriSpeech/test-clean-wav/2094-142345-0051.wav
+ - src: "no thank you i'll just look at the whelps and leave a message about them with your shepherd"
+ - res: "no thank you i'll just look at the whelps and leave ha message about them with your shepherd"
+--------------------------------------------------------------------------------
+WER: 0.055556, CER: 0.011628, loss: 2.306631
+ - wav: file://librispeech/LibriSpeech/test-clean-wav/8230-279154-0023.wav
+ - src: "in this case as in most others what may be taken as certain in advance is rather vague"
+ - res: "in this case as in most others what may be taken as certain an advance is rather vague"
+--------------------------------------------------------------------------------
+WER: 0.055556, CER: 0.012195, loss: 2.304399
+ - wav: file://librispeech/LibriSpeech/test-clean-wav/8455-210777-0018.wav
+ - src: "this she said was true hospitality and i am not sure that i did not agree with her"
+ - res: "this she said was true hospitality and i am not sure that i did not agree with ther"
+--------------------------------------------------------------------------------
+Worst WER: 
+--------------------------------------------------------------------------------
+WER: 0.714286, CER: 0.166667, loss: 22.167189
+ - wav: file://librispeech/LibriSpeech/test-clean-wav/2961-961-0003.wav
+ - src: "i will if timaeus approves i approve"
+ - res: "i will if te ne is a proves i approve"
+--------------------------------------------------------------------------------
+WER: 0.750000, CER: 0.280000, loss: 20.187176
+ - wav: file://librispeech/LibriSpeech/test-clean-wav/8463-294828-0005.wav
+ - src: "conseil was my manservant"
+ - res: "cause was my man's servant"
+--------------------------------------------------------------------------------
+WER: 0.750000, CER: 0.142857, loss: 7.365550
+ - wav: file://librispeech/LibriSpeech/test-clean-wav/5683-32879-0025.wav
+ - src: "thank you dorcas dear"
+ - res: "think you dorcastear"
+--------------------------------------------------------------------------------
+WER: 1.000000, CER: 0.444444, loss: 32.090935
+ - wav: file://librispeech/LibriSpeech/test-clean-wav/2830-3980-0026.wav
+ - src: "verse two"
+ - res: "first twoo"
+--------------------------------------------------------------------------------
+WER: 1.000000, CER: 0.411765, loss: 14.372181
+ - wav: file://librispeech/LibriSpeech/test-clean-wav/1089-134691-0024.wav
+ - src: "stephanos dedalos"
+ - res: "stepinels sdeadlos"
+--------------------------------------------------------------------------------
+Testing model on librispeech/librivox-test-other.csv
+Test epoch | Steps: 0 | Elapsed Time: 0:00:00
+Test epoch | Steps: 1 | Elapsed Time: 0:01:30
+Test epoch | Steps: 2 | Elapsed Time: 0:03:42
+Test epoch | Steps: 3 | Elapsed Time: 0:08:59
+Test epoch | Steps: 3 | Elapsed Time: 0:08:59
+Test on librispeech/librivox-test-other.csv - WER: 0.219552, CER: 0.081688, loss: 26.010748
+--------------------------------------------------------------------------------
+Best WER: 
+--------------------------------------------------------------------------------
+WER: 0.000000, CER: 0.010753, loss: 7.848575
+ - wav: file://librispeech/LibriSpeech/test-other-wav/6128-63240-0009.wav
+ - src: "and he took up his hat vaguely a soft black hat with a low crown and an immense straight brim"
+ - res: "and he took up his hat  vaguely a soft black hat with a low crown and an immense straight brim"
+--------------------------------------------------------------------------------
+WER: 0.000000, CER: 0.000000, loss: 5.850821
+ - wav: file://librispeech/LibriSpeech/test-other-wav/7018-75788-0007.wav
+ - src: "now sleeping under these trees were many apes which when they saw us rose and fled from us and swarmed up among the branches whereupon my companions began to pelt them with what they had in their bags and the apes fell to plucking of the fruit of the trees and casting them at the folk"
+ - res: "now sleeping under these trees were many apes which when they saw us rose and fled from us and swarmed up among the branches whereupon my companions began to pelt them with what they had in their bags and the apes fell to plucking of the fruit of the trees and casting them at the folk"
+--------------------------------------------------------------------------------
+WER: 0.000000, CER: 0.000000, loss: 5.429049
+ - wav: file://librispeech/LibriSpeech/test-other-wav/8188-269288-0056.wav
+ - src: "there was no reply but the sound of hurrying steps came quicker and quicker now and then they were interrupted by a groan"
+ - res: "there was no reply but the sound of hurrying steps came quicker and quicker now and then they were interrupted by a groan"
+--------------------------------------------------------------------------------
+WER: 0.000000, CER: 0.000000, loss: 5.414234
+ - wav: file://librispeech/LibriSpeech/test-other-wav/2033-164914-0009.wav
+ - src: "he who recited the first time hath recited a second time and i heard him hard by"
+ - res: "he who recited the first time hath recited a second time and i heard him hard by"
+--------------------------------------------------------------------------------
+WER: 0.000000, CER: 0.000000, loss: 4.970320
+ - wav: file://librispeech/LibriSpeech/test-other-wav/3997-180297-0002.wav
+ - src: "well you might have had a woman here said prudence and it would hardly have been amusing for her to see two more arrive"
+ - res: "well you might have had a woman here said prudence and it would hardly have been amusing for her to see two more arrive"
+--------------------------------------------------------------------------------
+Median WER: 
+--------------------------------------------------------------------------------
+WER: 0.200000, CER: 0.025641, loss: 8.276284
+ - wav: file://librispeech/LibriSpeech/test-other-wav/5764-299665-0057.wav
+ - src: "in other words it was just as fiendish just as infamous as the catholic spirit"
+ - res: "in other words it was just as fiendish just as in famous as the cathoric spirit"
+--------------------------------------------------------------------------------
+WER: 0.200000, CER: 0.075000, loss: 7.991901
+ - wav: file://librispeech/LibriSpeech/test-other-wav/8131-117029-0006.wav
+ - src: "schulberg's volunteers were official now"
+ - res: "shollberg's volunteers were official now"
+--------------------------------------------------------------------------------
+WER: 0.200000, CER: 0.086957, loss: 7.674444
+ - wav: file://librispeech/LibriSpeech/test-other-wav/6432-63722-0057.wav
+ - src: "yes it still holds good"
+ - res: "yes it's still holds good"
+--------------------------------------------------------------------------------
+WER: 0.200000, CER: 0.069767, loss: 7.664084
+ - wav: file://librispeech/LibriSpeech/test-other-wav/8461-281231-0014.wav
+ - src: "tell me thy name or work thy pleasure on me"
+ - res: "tell me thy name a work they pleasure on me"
+--------------------------------------------------------------------------------
+WER: 0.200000, CER: 0.086957, loss: 7.624012
+ - wav: file://librispeech/LibriSpeech/test-other-wav/8461-281231-0013.wav
+ - src: "at length de bracy fell"
+ - res: "at length the bracy fell"
+--------------------------------------------------------------------------------
+Worst WER: 
+--------------------------------------------------------------------------------
+WER: 1.333333, CER: 0.238095, loss: 10.946900
+ - wav: file://librispeech/LibriSpeech/test-other-wav/533-1066-0000.wav
+ - src: "when churchyards yawn"
+ - res: "wone church yards yarn"
+--------------------------------------------------------------------------------
+WER: 1.500000, CER: 0.642857, loss: 123.546707
+ - wav: file://librispeech/LibriSpeech/test-other-wav/2414-128292-0023.wav
+ - src: "o eternal everywhere o eternal nowhere o eternal in vain"
+ - res: "o i don't tho every where or i done the no were who had torned that in vain"
+--------------------------------------------------------------------------------
+WER: 1.500000, CER: 0.150000, loss: 8.602903
+ - wav: file://librispeech/LibriSpeech/test-other-wav/3005-163390-0011.wav
+ - src: "greenhorns flatheads"
+ - res: "greenhordes flat heads"
+--------------------------------------------------------------------------------
+WER: 1.666667, CER: 0.500000, loss: 39.683533
+ - wav: file://librispeech/LibriSpeech/test-other-wav/2414-128291-0015.wav
+ - src: "answered the other"
+ - res: "and so d t her"
+--------------------------------------------------------------------------------
+WER: 2.000000, CER: 0.720000, loss: 69.510612
+ - wav: file://librispeech/LibriSpeech/test-other-wav/5442-41168-0014.wav
+ - src: "sergey ivanovitch frowned"
+ - res: "so that he even awich round"
+--------------------------------------------------------------------------------
