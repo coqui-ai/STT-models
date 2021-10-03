@@ -1,4 +1,4 @@
-# Model card for English yesno STT
+# Model card for English STT v1.0.0
 
 Jump to section:
 
@@ -15,17 +15,17 @@ Jump to section:
 
 - Person or organization developing model: Maintained by [Coqui](https://coqui.ai/).
 - Model language: English / English / `en`
-- Model date: July 26, 2021
-- Model type: `Speech-to-Text` / `constrained vocabulary` / `yesno`
-- Model version: `v0.0.1`
-- Compatible with 🐸 STT version: `v0.9.3`
+- Model date: October 3, 2021
+- Model type: `Small vocabulary Speech-to-Text`
+- Model version: `v1.0.0-digits`
+- Compatible with 🐸 STT version: `v1.0.0`
 - License: Apache 2.0
-- Citation details: `@techreport{english-yesno-stt, author = {Coqui}, title = {English yesno STT v0.0.1}, institution = {Coqui}, address = {\url{https://github.com/coqui-ai/STT-models}} year = {2021}, month = {July}, number = {STT-EN-YESNO-0.0.1} }`
-- Where to send questions or comments about the model: You can leave an issue on [`STT-model` issues](https://github.com/coqui-ai/STT-models/issues), open a new discussion on [`STT-model` discussions](https://github.com/coqui-ai/STT-models/discussions), or chat with us on [Gitter](https://gitter.im/coqui-ai/).
+- Citation details: `@techreport{english-stt, author = {Coqui}, title = {English STT v1.0.0}, institution = {Coqui}, address = {\url{https://coqui.ai/models}} year = {2021}, month = {October}, number = {STT-EN-1.0.0} }`
+- Where to send questions or comments about the model: You can leave an issue on [`STT` issues](https://github.com/coqui-ai/STT/issues), open a new discussion on [`STT` discussions](https://github.com/coqui-ai/STT/discussions), or chat with us on [Gitter](https://gitter.im/coqui-ai/).
 
 ## Intended use
 
-Speech-to-Text `yesno` model for the [English Language](https://en.wikipedia.org/wiki/English_language) on 16kHz, mono-channel audio. This model has been trained to only recognize the two words "yes" and "no" in English.
+Closed vocabulary (digits "zero" through "nine") Speech-to-Text for the [English Language](https://en.wikipedia.org/wiki/English_language) on 16kHz, mono-channel audio. This acoustic model and language model pair will only be able to recognize the words {"zero","one","two","three","four","five","six","seven","eight" and "nine"}, which is a common use case in IVR systems.
 
 ## Performance Factors
 
@@ -33,20 +33,14 @@ Factors relevant to Speech-to-Text performance include but are not limited to sp
 
 ## Metrics
 
-STT models are usually evaluated in terms of their transcription accuracy, deployment Real-Time Factor, and model size on disk.
-
-#### Transcription Accuracy
-
-The model was trained and evaluted on the Common Voice Target Segments Corpus, specifically, only on "yes" and "no" audio clips.
-
-|Test Corpus|Word Error Rate|
-|-------|----------|
-|Common Voice 6.1 (Target Segments Corpus "yes" and "no") | 1.6\% |
-
 #### Model Size
 
-`yesno.pbmm`: 319K
-`yesno.scorer`: 1.7K
+For STT, you always must deploy an acoustic model, and it is often the case you also will want to deploy an application-specific language model. The acoustic model comes in two forms: quantized and unquantized. There is a size<->accuracy trade-off for acoustic model quantization. For this combination of acoustic model and language model, we optimize for small size.
+
+|Model type|Vocabulary|Filename|Size|
+----------------|-----|----------------|-----|
+|Acoustic model | open | `model_quantized.tflite` | 46M||
+|Language model | small| `digits.scorer` |1.7K| 
 
 ### Approaches to uncertainty and variability
 
@@ -54,11 +48,11 @@ Confidence scores and multiple paths from the decoding beam can be used to measu
 
 ## Training data
 
-The model was trained and evaluted on the Common Voice Target Segments Corpus, specifically, only on "yes" and "no" audio clips.
+This model was trained on the following corpora: Common Voice 7.0 English (custom Coqui train/dev/test splits), LibriSpeech, and Multilingual Librispeech. In total approximately ~47,000 hours of data.
 
 ## Evaluation data
 
-The model was trained and evaluted on the Common Voice Target Segments Corpus, specifically, only on "yes" and "no" audio clips.
+The validation ("dev") sets came from CV, Librispeech, and MLS. Testing accuracy is reported for MLS and Librispeech.
 
 ## Ethical considerations
 
