@@ -1,0 +1,285 @@
+I Loading best validating checkpoint from /home/ubuntu/oct-3-english-stt-checkpoints/acoustic_model/checkpoints/best_dev-3663881
+I Loading variable from checkpoint: cudnn_lstm/rnn/multi_rnn_cell/cell_0/cudnn_compatible_lstm_cell/bias
+I Loading variable from checkpoint: cudnn_lstm/rnn/multi_rnn_cell/cell_0/cudnn_compatible_lstm_cell/kernel
+I Loading variable from checkpoint: global_step
+I Loading variable from checkpoint: layer_1/bias
+I Loading variable from checkpoint: layer_1/weights
+I Loading variable from checkpoint: layer_2/bias
+I Loading variable from checkpoint: layer_2/weights
+I Loading variable from checkpoint: layer_3/bias
+I Loading variable from checkpoint: layer_3/weights
+I Loading variable from checkpoint: layer_5/bias
+I Loading variable from checkpoint: layer_5/weights
+I Loading variable from checkpoint: layer_6/bias
+I Loading variable from checkpoint: layer_6/weights
+Testing model on /home/ubuntu/en-data/test.csv
+Test epoch | Steps: 0 | Elapsed Time: 0:00:00
+Test epoch | Steps: 1 | Elapsed Time: 0:00:18
+Test epoch | Steps: 2 | Elapsed Time: 0:00:35
+Test epoch | Steps: 3 | Elapsed Time: 0:00:53
+Test epoch | Steps: 4 | Elapsed Time: 0:01:12
+Test epoch | Steps: 5 | Elapsed Time: 0:01:32
+Test epoch | Steps: 6 | Elapsed Time: 0:01:56
+Test epoch | Steps: 7 | Elapsed Time: 0:02:02
+Test epoch | Steps: 7 | Elapsed Time: 0:02:02
+Test on /home/ubuntu/en-data/test.csv - WER: 0.431248, CER: 0.239301, loss: 51.432274
+--------------------------------------------------------------------------------
+Best WER: 
+--------------------------------------------------------------------------------
+WER: 0.000000, CER: 0.000000, loss: 35.702061
+ - wav: file:///home/ubuntu/en-data/common_voice_en_20242298.opus
+ - src: "but in the middle of the negotiations he decided not to go through"
+ - res: "but in the middle of the negotiations he decided not to go through"
+--------------------------------------------------------------------------------
+WER: 0.000000, CER: 0.000000, loss: 32.050987
+ - wav: file:///home/ubuntu/en-data/common_voice_en_19954083.opus
+ - src: "the artist made a mistake with the boundaries between peru and ecuador"
+ - res: "the artist made a mistake with the boundaries between peru and ecuador"
+--------------------------------------------------------------------------------
+WER: 0.000000, CER: 0.000000, loss: 30.634878
+ - wav: file:///home/ubuntu/en-data/common_voice_en_20881181.opus
+ - src: "it is written from the viewpoint of the ship's chief engineer montgomery scott"
+ - res: "it is written from the viewpoint of the ship's chief engineer montgomery scott"
+--------------------------------------------------------------------------------
+WER: 0.000000, CER: 0.000000, loss: 30.399607
+ - wav: file:///home/ubuntu/en-data/common_voice_en_26267987.opus
+ - src: "the frequency of the electromagnetic radiation is related to the reference of the observers"
+ - res: "the frequency of the electromagnetic radiation is related to the reference of the observers"
+--------------------------------------------------------------------------------
+WER: 0.000000, CER: 0.000000, loss: 28.879627
+ - wav: file:///home/ubuntu/en-data/common_voice_en_26970287.opus
+ - src: "the government of alberta is organized as a parliamentary democracy with a unicameral legislature"
+ - res: "the government of alberta is organized as a parliamentary democracy with a unicameral legislature"
+--------------------------------------------------------------------------------
+Median WER: 
+--------------------------------------------------------------------------------
+WER: 0.400000, CER: 0.229508, loss: 30.176540
+ - wav: file:///home/ubuntu/en-data/common_voice_en_26614825.opus
+ - src: "brevig mission is served by the bering strait school district"
+ - res: "beneficiation is served by the barren street school district"
+--------------------------------------------------------------------------------
+WER: 0.400000, CER: 0.250000, loss: 30.172714
+ - wav: file:///home/ubuntu/en-data/common_voice_en_19101725.opus
+ - src: "after the second world war the city was rapidly extended"
+ - res: "after i circondar the city was rapidly extended"
+--------------------------------------------------------------------------------
+WER: 0.400000, CER: 0.163636, loss: 30.146706
+ - wav: file:///home/ubuntu/en-data/common_voice_en_19714663.opus
+ - src: "the town is named after jonathan cone an early resident"
+ - res: "the town is named after jonathan can and arlesien"
+--------------------------------------------------------------------------------
+WER: 0.400000, CER: 0.191489, loss: 30.051008
+ - wav: file:///home/ubuntu/en-data/common_voice_en_22718933.opus
+ - src: "thereafter winterton was increasingly sidelined"
+ - res: "thereafter wented turnwent increasingly sidelined"
+--------------------------------------------------------------------------------
+WER: 0.400000, CER: 0.176471, loss: 29.906981
+ - wav: file:///home/ubuntu/en-data/common_voice_en_19585927.opus
+ - src: "williams participated in the event"
+ - res: "williams participated the rivet"
+--------------------------------------------------------------------------------
+Worst WER: 
+--------------------------------------------------------------------------------
+WER: 1.500000, CER: 0.558824, loss: 65.613472
+ - wav: file:///home/ubuntu/en-data/common_voice_en_27095220.opus
+ - src: "center for sustainable development"
+ - res: "send a forest in in wonderment"
+--------------------------------------------------------------------------------
+WER: 1.571429, CER: 0.770833, loss: 136.885742
+ - wav: file:///home/ubuntu/en-data/common_voice_en_26970884.opus
+ - src: "they worked together on developing the octoechos"
+ - res: "i hate and water they walked to get on developing also echoes with a "
+--------------------------------------------------------------------------------
+WER: 1.600000, CER: 1.000000, loss: 135.049271
+ - wav: file:///home/ubuntu/en-data/common_voice_en_19287970.opus
+ - src: "it is available on youtube"
+ - res: "its available on you to its available on you to"
+--------------------------------------------------------------------------------
+WER: 1.625000, CER: 0.843137, loss: 175.302841
+ - wav: file:///home/ubuntu/en-data/common_voice_en_18778827.opus
+ - src: "these extra cards were inserted randomly into packs"
+ - res: "oh but that is his extra cars were your to the run the lines agestrata"
+--------------------------------------------------------------------------------
+WER: 2.000000, CER: 0.720000, loss: 54.325821
+ - wav: file:///home/ubuntu/en-data/common_voice_en_25648391.opus
+ - src: "offended isabel flies off"
+ - res: "i think it is a ten light of"
+--------------------------------------------------------------------------------
+Testing model on /home/ubuntu/librispeech/librivox-test-clean.csv
+Test epoch | Steps: 0 | Elapsed Time: 0:00:00
+Test epoch | Steps: 1 | Elapsed Time: 0:00:20
+Test epoch | Steps: 2 | Elapsed Time: 0:00:55
+Test epoch | Steps: 3 | Elapsed Time: 0:02:03
+Test epoch | Steps: 3 | Elapsed Time: 0:02:03
+Test on /home/ubuntu/librispeech/librivox-test-clean.csv - WER: 0.044735, CER: 0.016396, loss: 8.554506
+--------------------------------------------------------------------------------
+Best WER: 
+--------------------------------------------------------------------------------
+WER: 0.000000, CER: 0.000000, loss: 29.429939
+ - wav: file:///home/ubuntu/librispeech/LibriSpeech/test-clean-wav/260-123286-0030.wav
+ - src: "suddenly the ichthyosaurus and the plesiosaurus disappear below leaving a whirlpool eddying in the water"
+ - res: "suddenly the ichthyosaurus and the plesiosaurus disappear below leaving a whirlpool eddying in the water"
+--------------------------------------------------------------------------------
+WER: 0.000000, CER: 0.000000, loss: 18.640211
+ - wav: file:///home/ubuntu/librispeech/LibriSpeech/test-clean-wav/4507-16021-0047.wav
+ - src: "yesterday you were trembling for a health that is dear to you to day you fear for your own to morrow it will be anxiety about money the day after to morrow the diatribe of a slanderer the day after that the misfortune of some friend then the prevailing weather then something that has been broken or lost then a pleasure with which your conscience and your vertebral column reproach you again the course of public affairs"
+ - res: "yesterday you were trembling for a health that is dear to you to day you fear for your own to morrow it will be anxiety about money the day after to morrow the diatribe of a slanderer the day after that the misfortune of some friend then the prevailing weather then something that has been broken or lost then a pleasure with which your conscience and your vertebral column reproach you again the course of public affairs"
+--------------------------------------------------------------------------------
+WER: 0.000000, CER: 0.000000, loss: 17.959110
+ - wav: file:///home/ubuntu/librispeech/LibriSpeech/test-clean-wav/3570-5696-0010.wav
+ - src: "an article may be useful and wasteful both and its utility to the consumer may be made up of use and waste in the most varying proportions"
+ - res: "an article may be useful and wasteful both and its utility to the consumer may be made up of use and waste in the most varying proportions"
+--------------------------------------------------------------------------------
+WER: 0.000000, CER: 0.000000, loss: 17.031771
+ - wav: file:///home/ubuntu/librispeech/LibriSpeech/test-clean-wav/3570-5694-0006.wav
+ - src: "drunkenness and the other pathological consequences of the free use of stimulants therefore tend in their turn to become honorific as being a mark at the second remove of the superior status of those who are able to afford the indulgence"
+ - res: "drunkenness and the other pathological consequences of the free use of stimulants therefore tend in their turn to become honorific as being a mark at the second remove of the superior status of those who are able to afford the indulgence"
+--------------------------------------------------------------------------------
+WER: 0.000000, CER: 0.000000, loss: 16.966490
+ - wav: file:///home/ubuntu/librispeech/LibriSpeech/test-clean-wav/237-126133-0022.wav
+ - src: "i didn't have any fears if i worked it rightly said the old gentleman complacently"
+ - res: "i didn't have any fears if i worked it rightly said the old gentleman complacently"
+--------------------------------------------------------------------------------
+Median WER: 
+--------------------------------------------------------------------------------
+WER: 0.000000, CER: 0.000000, loss: 0.180465
+ - wav: file:///home/ubuntu/librispeech/LibriSpeech/test-clean-wav/260-123286-0017.wav
+ - src: "i shudder as i recall these monsters to my remembrance"
+ - res: "i shudder as i recall these monsters to my remembrance"
+--------------------------------------------------------------------------------
+WER: 0.000000, CER: 0.000000, loss: 0.179437
+ - wav: file:///home/ubuntu/librispeech/LibriSpeech/test-clean-wav/5683-32865-0014.wav
+ - src: "he's not a man for country quarters"
+ - res: "he's not a man for country quarters"
+--------------------------------------------------------------------------------
+WER: 0.000000, CER: 0.000000, loss: 0.179342
+ - wav: file:///home/ubuntu/librispeech/LibriSpeech/test-clean-wav/1995-1837-0010.wav
+ - src: "perhaps she too might be there waiting weeping"
+ - res: "perhaps she too might be there waiting weeping"
+--------------------------------------------------------------------------------
+WER: 0.000000, CER: 0.000000, loss: 0.178834
+ - wav: file:///home/ubuntu/librispeech/LibriSpeech/test-clean-wav/6930-81414-0022.wav
+ - src: "i had again been acting under the influence of this man's power"
+ - res: "i had again been acting under the influence of this man's power"
+--------------------------------------------------------------------------------
+WER: 0.000000, CER: 0.000000, loss: 0.178293
+ - wav: file:///home/ubuntu/librispeech/LibriSpeech/test-clean-wav/61-70970-0020.wav
+ - src: "will whispered robin opening his door as he spoke are you ready"
+ - res: "will whispered robin opening his door as he spoke are you ready"
+--------------------------------------------------------------------------------
+Worst WER: 
+--------------------------------------------------------------------------------
+WER: 0.666667, CER: 0.076923, loss: 0.586102
+ - wav: file:///home/ubuntu/librispeech/LibriSpeech/test-clean-wav/121-127105-0014.wav
+ - src: "you are acute"
+ - res: "you are a cute"
+--------------------------------------------------------------------------------
+WER: 0.750000, CER: 0.200000, loss: 20.187176
+ - wav: file:///home/ubuntu/librispeech/LibriSpeech/test-clean-wav/8463-294828-0005.wav
+ - src: "conseil was my manservant"
+ - res: "cause was my man servant"
+--------------------------------------------------------------------------------
+WER: 0.777778, CER: 0.428571, loss: 56.192341
+ - wav: file:///home/ubuntu/librispeech/LibriSpeech/test-clean-wav/3729-6852-0043.wav
+ - src: "i reside in the marais rue de douze portes"
+ - res: "iris eyed in the mare rode duport"
+--------------------------------------------------------------------------------
+WER: 1.000000, CER: 0.444444, loss: 32.090935
+ - wav: file:///home/ubuntu/librispeech/LibriSpeech/test-clean-wav/2830-3980-0026.wav
+ - src: "verse two"
+ - res: "first to"
+--------------------------------------------------------------------------------
+WER: 1.000000, CER: 0.294118, loss: 14.372181
+ - wav: file:///home/ubuntu/librispeech/LibriSpeech/test-clean-wav/1089-134691-0024.wav
+ - src: "stephanos dedalos"
+ - res: "stefano delos"
+--------------------------------------------------------------------------------
+Testing model on /home/ubuntu/librispeech/librivox-test-other.csv
+Test epoch | Steps: 0 | Elapsed Time: 0:00:00
+Test epoch | Steps: 1 | Elapsed Time: 0:00:21
+Test epoch | Steps: 2 | Elapsed Time: 0:00:44
+Test epoch | Steps: 3 | Elapsed Time: 0:02:00
+Test epoch | Steps: 3 | Elapsed Time: 0:02:00
+Test on /home/ubuntu/librispeech/librivox-test-other.csv - WER: 0.136236, CER: 0.064445, loss: 26.010748
+--------------------------------------------------------------------------------
+Best WER: 
+--------------------------------------------------------------------------------
+WER: 0.000000, CER: 0.000000, loss: 41.159855
+ - wav: file:///home/ubuntu/librispeech/LibriSpeech/test-other-wav/3331-159609-0000.wav
+ - src: "never mind what the business was it suffices to say that it was a good beginning for a young man like tom who having been born and bred in the most conservative class of the most conceited city in new england needed just the healthy hearty social influences of the west to widen his views and make a man of him"
+ - res: "never mind what the business was it suffices to say that it was a good beginning for a young man like tom who having been born and bred in the most conservative class of the most conceited city in new england needed just the healthy hearty social influences of the west to widen his views and make a man of him"
+--------------------------------------------------------------------------------
+WER: 0.000000, CER: 0.000000, loss: 37.389942
+ - wav: file:///home/ubuntu/librispeech/LibriSpeech/test-other-wav/2609-156975-0021.wav
+ - src: "on the borders of the wilderness he found certain bedouin herdsmen who received him hospitably"
+ - res: "on the borders of the wilderness he found certain bedouin herdsmen who received him hospitably"
+--------------------------------------------------------------------------------
+WER: 0.000000, CER: 0.000000, loss: 36.720379
+ - wav: file:///home/ubuntu/librispeech/LibriSpeech/test-other-wav/8188-269290-0054.wav
+ - src: "i must see her myself early in the morning and i am quite sure that nothing will satisfy miss lauderdale except a very ample apology and a full explanation of the reason why she absented herself"
+ - res: "i must see her myself early in the morning and i am quite sure that nothing will satisfy miss lauderdale except a very ample apology and a full explanation of the reason why she absented herself"
+--------------------------------------------------------------------------------
+WER: 0.000000, CER: 0.000000, loss: 32.022297
+ - wav: file:///home/ubuntu/librispeech/LibriSpeech/test-other-wav/2033-164914-0020.wav
+ - src: "o my lord continued the eunuch and shahrazad perceived the dawn of day and ceased to say her permitted say"
+ - res: "o my lord continued the eunuch and shahrazad perceived the dawn of day and ceased to say her permitted say"
+--------------------------------------------------------------------------------
+WER: 0.000000, CER: 0.000000, loss: 28.282251
+ - wav: file:///home/ubuntu/librispeech/LibriSpeech/test-other-wav/6938-70848-0024.wav
+ - src: "he knew that an agreement with the bolsheviki was being discussed but he did not know that it had been concluded"
+ - res: "he knew that an agreement with the bolsheviki was being discussed but he did not know that it had been concluded"
+--------------------------------------------------------------------------------
+Median WER: 
+--------------------------------------------------------------------------------
+WER: 0.105263, CER: 0.037383, loss: 31.217196
+ - wav: file:///home/ubuntu/librispeech/LibriSpeech/test-other-wav/3538-163624-0018.wav
+ - src: "there is sigurd roasting fafnir's heart for another when he should taste of it himself and learn all wisdom"
+ - res: "there sigurd roasting fafner's heart for another when he should taste of it himself and learn all wisdom"
+--------------------------------------------------------------------------------
+WER: 0.105263, CER: 0.049020, loss: 19.546343
+ - wav: file:///home/ubuntu/librispeech/LibriSpeech/test-other-wav/6070-86745-0013.wav
+ - src: "peste i will do nothing of the kind the moment they come from government you would find them execrable"
+ - res: "best i will do nothing of the kind the moment they come from government he would find them execrable"
+--------------------------------------------------------------------------------
+WER: 0.105263, CER: 0.065934, loss: 18.246033
+ - wav: file:///home/ubuntu/librispeech/LibriSpeech/test-other-wav/3538-163622-0015.wav
+ - src: "when they had gone thus for a long long way the foal again asked dost thou see anything now"
+ - res: "when they had gone last for a long long way the full again asked dost thou see anything now"
+--------------------------------------------------------------------------------
+WER: 0.105263, CER: 0.050000, loss: 15.727069
+ - wav: file:///home/ubuntu/librispeech/LibriSpeech/test-other-wav/6432-63723-0046.wav
+ - src: "there were three of them the center figure being that of harry king and he was very much intoxicated"
+ - res: "there were three of them the center figure ben got of harry king and he was very much intoxicated"
+--------------------------------------------------------------------------------
+WER: 0.105263, CER: 0.010638, loss: 15.401812
+ - wav: file:///home/ubuntu/librispeech/LibriSpeech/test-other-wav/367-130732-0011.wav
+ - src: "one has to come to san francisco to partake of the king of shell fish the mammoth pacific crab"
+ - res: "one has to come to san francisco to partake of the king of shellfish the mammoth pacific crab"
+--------------------------------------------------------------------------------
+Worst WER: 
+--------------------------------------------------------------------------------
+WER: 1.100000, CER: 0.625000, loss: 123.546707
+ - wav: file:///home/ubuntu/librispeech/LibriSpeech/test-other-wav/2414-128292-0023.wav
+ - src: "o eternal everywhere o eternal nowhere o eternal in vain"
+ - res: "o i don't know everywhere or had done the nowhere who had turned that in vain"
+--------------------------------------------------------------------------------
+WER: 1.250000, CER: 0.339286, loss: 71.525642
+ - wav: file:///home/ubuntu/librispeech/LibriSpeech/test-other-wav/2609-156975-0016.wav
+ - src: "was moses justified in resisting the egyptian taskmaster"
+ - res: "this move is just finding resist in the gibson task master"
+--------------------------------------------------------------------------------
+WER: 1.500000, CER: 0.187500, loss: 13.895748
+ - wav: file:///home/ubuntu/librispeech/LibriSpeech/test-other-wav/533-131564-0022.wav
+ - src: "where's milicent"
+ - res: "where is millicent"
+--------------------------------------------------------------------------------
+WER: 2.000000, CER: 0.200000, loss: 8.602903
+ - wav: file:///home/ubuntu/librispeech/LibriSpeech/test-other-wav/3005-163390-0011.wav
+ - src: "greenhorns flatheads"
+ - res: "green hordes flat heads"
+--------------------------------------------------------------------------------
+WER: 2.333333, CER: 0.760000, loss: 69.510612
+ - wav: file:///home/ubuntu/librispeech/LibriSpeech/test-other-wav/5442-41168-0014.wav
+ - src: "sergey ivanovitch frowned"
+ - res: "so that he even a rich round"
+--------------------------------------------------------------------------------

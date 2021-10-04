@@ -37,10 +37,10 @@ STT models are usually evaluated in terms of their transcription accuracy, deplo
 
 #### Transcription Accuracy
 
-Using the language model with settings `lm_alpha=0.49506138236732433` and `lm_beta=0.11939819449850608` (found via `lm_optimizer.py`):
+Using the `huge-vocabulary.scorer` language model:
 
-- Librispeech clean: WER: 5.2\%, CER: 1.9\%
-- Librispeech clean: WER: 15.0\%, CER: 7.3\%
+- Librispeech clean: WER: 4.5\%, CER: 1.6\%
+- Librispeech clean: WER: 13.6\%, CER: 6.4\%
 
 #### Model Size
 
@@ -49,7 +49,7 @@ For STT, you always must deploy an acoustic model, and it is often the case you 
 |Model type|Vocabulary|Filename|Size|
 ----------------|-----|----------------|-----|
 |Acoustic model | open | `model.tflite` | 181M|
-|Language model | large  | `large-vocabulary.scorer` |127M|
+|Language model | large  | `huge-vocabulary.scorer` |923M|
 
 ### Approaches to uncertainty and variability
 
