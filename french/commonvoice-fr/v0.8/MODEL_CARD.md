@@ -13,7 +13,7 @@ Jump to section:
 
 ## Model details
 
-- Person or organization developing model: Originally trained and released by the [commonvoice-fr](https://github.com/common-voice/commonvoice-fr) project, revived by [Waser Technologies](https://github.com/wasertech/commonvoice-fr)
+- Person or organization developing model: Originally trained and released by the [commonvoice-fr](https://github.com/common-voice/commonvoice-fr) project, revived by [Waser Technologies](https://github.com/wasertech/commonvoice-fr/tree/coqui-stt)
 - Model date: Accessed from [Github](https://github.com/wasertech/commonvoice-fr/releases/tag/v0.8.0-fr-0.3) on February 9, 2022
 - Model type: `Speech-to-Text`
 - Model version: `v0.8`
