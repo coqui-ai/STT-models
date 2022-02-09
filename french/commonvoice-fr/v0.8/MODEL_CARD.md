@@ -76,14 +76,14 @@ Confidence scores and multiple paths from the decoding beam can be used to measu
 This French STT model was trained on the following corpora:
 
 1. Lingua Libre (~40h)
-2. Common Voice FR (v8) (~826h, en autorisant jusqu'à 32 duplicatas)
+2. Common Voice FR (v8) (~826h, by allowing up to 32 duplicates)
 3. Training Speech (~180h)
 4. African Accented French (~15h)
 5. M-AILABS French (~315h)
-6. Multilingual LibriSpeech (~1'100h)
+6. Multilingual LibriSpeech (~1,100h)
 7. Att-HACK (~75h)
 
-Total : ~2'551h (~1'903h by default )
+Total : 2,551h (1,903h by default)
 
 ## Evaluation data
 
