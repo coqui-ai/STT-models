@@ -83,7 +83,8 @@ This French STT model was trained on the following corpora:
 6. Multilingual LibriSpeech (~1,100h)
 7. Att-HACK (~75h)
 
-Total : 2,551h (1,903h by default)
+Total : ~2,551h 
+(~1,903h by default)
 
 ## Evaluation data
 
