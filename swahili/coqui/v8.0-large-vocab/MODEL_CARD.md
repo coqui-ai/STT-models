@@ -14,7 +14,7 @@ Jump to section:
 ## Model details
 
 - Person or organization developing model: Maintained by [Coqui](https://coqui.ai/).
-- Model language: Swahili / Swahili / `en`
+- Model language: Swahili / kiswahili / `sw`
 - Model date: March 8, 2022
 - Model type: `Speech-to-Text`
 - Model version: `v8.0`
