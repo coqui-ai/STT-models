@@ -13,7 +13,7 @@ Jump to section:
 
 ## Model details
 
-- Person or organization developing model: Originally trained by [Bülent Özden](https://twitter.com/bulentozden), a leader of [Common Voice Türkçe](https://twitter.com/CVTurkce).
+- Person or organization developing model: Originally trained by [Bülent Özden](https://twitter.com/bulentozden), a member of [Common Voice Türkçe](https://twitter.com/CVTurkce).
 - Model language: Totonac / Sierra Totonac / `tos`
 - Model date: April 12, 2022
 - Model type: `Speech-to-Text`
