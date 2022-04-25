@@ -13,7 +13,7 @@ Jump to section:
 
 ## Model details
 
-- Person or organization developing model: Originally trained by [Bülent Özden](https://twitter.com/bulentozden), a leader of [Common Voice Türkçe](https://twitter.com/CVTurkce).
+- Person or organization developing model: Originally trained by [Bülent Özden](https://twitter.com/bulentozden), a member of [Common Voice Türkçe](https://twitter.com/CVTurkce).
 - Model language: Western Highland Chatino / `ctp`
 - Model date: 12th April, 2022
 - Model type: `Speech-to-Text`
