@@ -2,7 +2,7 @@
 # associated with a numeric label.
 # A line that starts with # is a comment. You can escape it with \# if you wish
 # to use '#' as a label.
- 
+
 a
 b
 c
@@ -29,6 +29,12 @@ w
 x
 y
 z
-'
+á
+é
+í
+ó
+ú
+!
 ñ
+ü
 # The last (non-comment) line needs to end with a newline.
