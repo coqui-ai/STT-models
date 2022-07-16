@@ -25,7 +25,7 @@ Jump to section:
 
 ## Intended use
 
-Speech-to-Text for the [Chuvash Language](https://en.wikipedia.org/wiki/Chuvash_language) on 16kHz, mono-channel audio.
+Speech-to-Text for the [Frisian Language](https://en.wikipedia.org/wiki/Frisian_languages) on 16kHz, mono-channel audio.
 
 ## Performance Factors
 
