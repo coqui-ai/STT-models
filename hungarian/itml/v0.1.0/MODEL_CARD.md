@@ -25,7 +25,7 @@ Jump to section:
 
 ## Intended use
 
-Speech-to-Text for the [Hungarian Language](https://en.wikipedia.org/wiki/Chuvash_language) on 16kHz, mono-channel audio.
+Speech-to-Text for the [Hungarian Language]([https://en.wikipedia.org/wiki/Chuvash_language](https://en.wikipedia.org/wiki/Hungarian_language)) on 16kHz, mono-channel audio.
 
 ## Performance Factors
 
