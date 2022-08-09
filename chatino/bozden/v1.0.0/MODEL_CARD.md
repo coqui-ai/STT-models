@@ -24,7 +24,7 @@ Jump to section:
 
 ## Intended use
 
-Speech-to-Text for [Western Highland Chatino](https://en.wikipedia.org/wiki/https://en.wikipedia.org/wiki/Highland_Chatino) on 16kHz, mono-channel audio.
+Speech-to-Text for [Western Highland Chatino](https://en.wikipedia.org/wiki/Highland_Chatino) on 16kHz, mono-channel audio.
 
 ## Performance Factors
 
