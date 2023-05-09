@@ -2,4 +2,4 @@
 
 This repository tracks releases of open models for 🐸STT.
 
-Download models here: [coqui.ai/models](https://coqui.ai/models)
+Download models here: [coqui-ai/STT-models/releases](https://github.com/coqui-ai/STT-models/releases)
