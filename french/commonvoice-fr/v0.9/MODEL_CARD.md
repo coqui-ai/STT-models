@@ -100,21 +100,18 @@ The model was tested on the following corpora.
 
 Data was augmented with the following parameters.
 
-```
-Parsed augmentations: [
-    Reverb(p=0.1, delay=ValueRange(start=50.0, end=50.0, r=30.0), decay=ValueRange(start=10.0, end=2.0, r=1.0)),
-    Resample(p=0.1, rate=ValueRange(start=12000, end=8000, r=4000)),
-    Codec(p=0.1, bitrate=ValueRange(start=48000, end=16000, r=0)),
-    Volume(p=0.1, dbfs=ValueRange(start=-10.0, end=-40.0, r=0.0)),
-    Pitch(p=0.1, pitch=ValueRange(start=1.0, end=1.0, r=0.2)),
-    Tempo(p=0.1, factor=ValueRange(start=1.0, end=1.0, r=0.5), max_time=-1.0), 
-    FrequencyMask(p=0.1, n=ValueRange(start=1, end=3, r=0), size=ValueRange(start=1, end=5, r=0)), 
-    TimeMask(p=0.1, domain='signal', n=ValueRange(start=3, end=10, r=2), size=ValueRange(start=50.0, end=100.0, r=40.0)),
-    Dropout(p=0.1, domain='spectrogram', rate=ValueRange(start=0.05, end=0.05, r=0.0)),
-    Add(p=0.1, domain='signal', stddev=ValueRange(start=0.0, end=0.0, r=0.5)),
-    Multiply(p=0.1, domain='features', stddev=ValueRange(start=0.0, end=0.0, r=0.5))
-]
-```
+Parsed augmentations: 
+- Reverb(p=0.1, delay=ValueRange(start=50.0, end=50.0, r=30.0), decay=ValueRange(start=10.0, end=2.0, r=1.0)),
+- Resample(p=0.1, rate=ValueRange(start=12000, end=8000, r=4000)),
+- Codec(p=0.1, bitrate=ValueRange(start=48000, end=16000, r=0)),
+- Volume(p=0.1, dbfs=ValueRange(start=-10.0, end=-40.0, r=0.0)),
+- Pitch(p=0.1, pitch=ValueRange(start=1.0, end=1.0, r=0.2)),
+- Tempo(p=0.1, factor=ValueRange(start=1.0, end=1.0, r=0.5), max_time=-1.0), 
+- FrequencyMask(p=0.1, n=ValueRange(start=1, end=3, r=0), size=ValueRange(start=1, end=5, r=0)), 
+- TimeMask(p=0.1, domain='signal', n=ValueRange(start=3, end=10, r=2), size=ValueRange(start=50.0, end=100.0, r=40.0)),
+- Dropout(p=0.1, domain='spectrogram', rate=ValueRange(start=0.05, end=0.05, r=0.0)),
+- Add(p=0.1, domain='signal', stddev=ValueRange(start=0.0, end=0.0, r=0.5)),
+- Multiply(p=0.1, domain='features', stddev=ValueRange(start=0.0, end=0.0, r=0.5))
 
 ## Ethical considerations
 
